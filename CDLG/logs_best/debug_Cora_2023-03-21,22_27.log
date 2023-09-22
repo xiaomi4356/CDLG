@@ -1,0 +1,2237 @@
+2023-03-21 22:27:29,729 - args: Namespace(dataset='Cora', datapath='../dataset', log_dir='logs/', name='debug', epoch=200, enc_lr=0.001, enc_weight_decay=0.0001, k=6, x_dim=32, routit=4, gpu=-1, de_rate1=0.3, de_rate2=0.3, df_rate1=0.3, df_rate2=0.2, m=10, n=4, log_epoch=200, log_lr=0.01, log_weight_decay=0.0001, log_trails=10, seed=1, argv=['/home/dell/zxj/cdg/main/main.py'], device=device(type='cuda', index=1))
+2023-03-21 22:27:29,729 - ================================Encoder run=================================
+2023-03-21 22:27:29,729 - seed:768
+2023-03-21 22:27:32,119 - Epoch:000, loss:2.1519
+2023-03-21 22:27:32,152 - Epoch:001, loss:2.1067
+2023-03-21 22:27:32,185 - Epoch:002, loss:2.1325
+2023-03-21 22:27:32,224 - Epoch:003, loss:2.0779
+2023-03-21 22:27:32,257 - Epoch:004, loss:2.0955
+2023-03-21 22:27:32,294 - Epoch:005, loss:2.1042
+2023-03-21 22:27:32,333 - Epoch:006, loss:2.1732
+2023-03-21 22:27:32,373 - Epoch:007, loss:2.1028
+2023-03-21 22:27:32,413 - Epoch:008, loss:2.1100
+2023-03-21 22:27:32,453 - Epoch:009, loss:2.0927
+2023-03-21 22:27:32,495 - Epoch:010, loss:2.0466
+2023-03-21 22:27:32,534 - Epoch:011, loss:2.0838
+2023-03-21 22:27:32,578 - Epoch:012, loss:2.0182
+2023-03-21 22:27:32,618 - Epoch:013, loss:1.9841
+2023-03-21 22:27:32,656 - Epoch:014, loss:1.9470
+2023-03-21 22:27:32,691 - Epoch:015, loss:1.9696
+2023-03-21 22:27:32,725 - Epoch:016, loss:1.9049
+2023-03-21 22:27:32,756 - Epoch:017, loss:1.8624
+2023-03-21 22:27:32,795 - Epoch:018, loss:1.7922
+2023-03-21 22:27:32,830 - Epoch:019, loss:1.7982
+2023-03-21 22:27:32,870 - Epoch:020, loss:1.7209
+2023-03-21 22:27:32,908 - Epoch:021, loss:1.6620
+2023-03-21 22:27:32,947 - Epoch:022, loss:1.6519
+2023-03-21 22:27:32,989 - Epoch:023, loss:1.5803
+2023-03-21 22:27:33,031 - Epoch:024, loss:1.5468
+2023-03-21 22:27:33,070 - Epoch:025, loss:1.5143
+2023-03-21 22:27:33,110 - Epoch:026, loss:1.5073
+2023-03-21 22:27:33,150 - Epoch:027, loss:1.5013
+2023-03-21 22:27:33,190 - Epoch:028, loss:1.4863
+2023-03-21 22:27:33,229 - Epoch:029, loss:1.5033
+2023-03-21 22:27:33,269 - Epoch:030, loss:1.5195
+2023-03-21 22:27:33,311 - Epoch:031, loss:1.4844
+2023-03-21 22:27:33,348 - Epoch:032, loss:1.5133
+2023-03-21 22:27:33,389 - Epoch:033, loss:1.4757
+2023-03-21 22:27:33,428 - Epoch:034, loss:1.4816
+2023-03-21 22:27:33,471 - Epoch:035, loss:1.4619
+2023-03-21 22:27:33,510 - Epoch:036, loss:1.4835
+2023-03-21 22:27:33,552 - Epoch:037, loss:1.4405
+2023-03-21 22:27:33,593 - Epoch:038, loss:1.4355
+2023-03-21 22:27:33,630 - Epoch:039, loss:1.4475
+2023-03-21 22:27:33,669 - Epoch:040, loss:1.4453
+2023-03-21 22:27:33,716 - Epoch:041, loss:1.4226
+2023-03-21 22:27:33,752 - Epoch:042, loss:1.4563
+2023-03-21 22:27:33,786 - Epoch:043, loss:1.4437
+2023-03-21 22:27:33,826 - Epoch:044, loss:1.4110
+2023-03-21 22:27:33,862 - Epoch:045, loss:1.4128
+2023-03-21 22:27:33,901 - Epoch:046, loss:1.4277
+2023-03-21 22:27:33,937 - Epoch:047, loss:1.4422
+2023-03-21 22:27:33,975 - Epoch:048, loss:1.4185
+2023-03-21 22:27:34,013 - Epoch:049, loss:1.4200
+2023-03-21 22:27:34,051 - Epoch:050, loss:1.4146
+2023-03-21 22:27:34,096 - Epoch:051, loss:1.3964
+2023-03-21 22:27:34,141 - Epoch:052, loss:1.4159
+2023-03-21 22:27:34,174 - Epoch:053, loss:1.4137
+2023-03-21 22:27:34,215 - Epoch:054, loss:1.4197
+2023-03-21 22:27:34,253 - Epoch:055, loss:1.4079
+2023-03-21 22:27:34,288 - Epoch:056, loss:1.4013
+2023-03-21 22:27:34,329 - Epoch:057, loss:1.3879
+2023-03-21 22:27:34,365 - Epoch:058, loss:1.4048
+2023-03-21 22:27:34,401 - Epoch:059, loss:1.3968
+2023-03-21 22:27:34,439 - Epoch:060, loss:1.3970
+2023-03-21 22:27:34,480 - Epoch:061, loss:1.3805
+2023-03-21 22:27:34,518 - Epoch:062, loss:1.3763
+2023-03-21 22:27:34,552 - Epoch:063, loss:1.3971
+2023-03-21 22:27:34,588 - Epoch:064, loss:1.4121
+2023-03-21 22:27:34,627 - Epoch:065, loss:1.3916
+2023-03-21 22:27:34,665 - Epoch:066, loss:1.3959
+2023-03-21 22:27:34,700 - Epoch:067, loss:1.4322
+2023-03-21 22:27:34,739 - Epoch:068, loss:1.3883
+2023-03-21 22:27:34,778 - Epoch:069, loss:1.4119
+2023-03-21 22:27:34,819 - Epoch:070, loss:1.4549
+2023-03-21 22:27:34,861 - Epoch:071, loss:1.3736
+2023-03-21 22:27:34,901 - Epoch:072, loss:1.3657
+2023-03-21 22:27:34,939 - Epoch:073, loss:1.4124
+2023-03-21 22:27:34,978 - Epoch:074, loss:1.4117
+2023-03-21 22:27:35,013 - Epoch:075, loss:1.3924
+2023-03-21 22:27:35,051 - Epoch:076, loss:1.3882
+2023-03-21 22:27:35,091 - Epoch:077, loss:1.3891
+2023-03-21 22:27:35,129 - Epoch:078, loss:1.3886
+2023-03-21 22:27:35,171 - Epoch:079, loss:1.3688
+2023-03-21 22:27:35,210 - Epoch:080, loss:1.3913
+2023-03-21 22:27:35,252 - Epoch:081, loss:1.3897
+2023-03-21 22:27:35,290 - Epoch:082, loss:1.3818
+2023-03-21 22:27:35,332 - Epoch:083, loss:1.3643
+2023-03-21 22:27:35,375 - Epoch:084, loss:1.3632
+2023-03-21 22:27:35,412 - Epoch:085, loss:1.3788
+2023-03-21 22:27:35,451 - Epoch:086, loss:1.3864
+2023-03-21 22:27:35,486 - Epoch:087, loss:1.4044
+2023-03-21 22:27:35,524 - Epoch:088, loss:1.3642
+2023-03-21 22:27:35,563 - Epoch:089, loss:1.3835
+2023-03-21 22:27:35,604 - Epoch:090, loss:1.3811
+2023-03-21 22:27:35,644 - Epoch:091, loss:1.3641
+2023-03-21 22:27:35,686 - Epoch:092, loss:1.3629
+2023-03-21 22:27:35,722 - Epoch:093, loss:1.3793
+2023-03-21 22:27:35,757 - Epoch:094, loss:1.4005
+2023-03-21 22:27:35,799 - Epoch:095, loss:1.3840
+2023-03-21 22:27:35,835 - Epoch:096, loss:1.4051
+2023-03-21 22:27:35,878 - Epoch:097, loss:1.3614
+2023-03-21 22:27:35,915 - Epoch:098, loss:1.3818
+2023-03-21 22:27:35,954 - Epoch:099, loss:1.4221
+2023-03-21 22:27:35,989 - Epoch:100, loss:1.3774
+2023-03-21 22:27:36,029 - Epoch:101, loss:1.3612
+2023-03-21 22:27:36,066 - Epoch:102, loss:1.3830
+2023-03-21 22:27:36,109 - Epoch:103, loss:1.3517
+2023-03-21 22:27:36,146 - Epoch:104, loss:1.3996
+2023-03-21 22:27:36,184 - Epoch:105, loss:1.3618
+2023-03-21 22:27:36,220 - Epoch:106, loss:1.3795
+2023-03-21 22:27:36,259 - Epoch:107, loss:1.3557
+2023-03-21 22:27:36,301 - Epoch:108, loss:1.4016
+2023-03-21 22:27:36,338 - Epoch:109, loss:1.3536
+2023-03-21 22:27:36,380 - Epoch:110, loss:1.3500
+2023-03-21 22:27:36,422 - Epoch:111, loss:1.3976
+2023-03-21 22:27:36,459 - Epoch:112, loss:1.4039
+2023-03-21 22:27:36,497 - Epoch:113, loss:1.3579
+2023-03-21 22:27:36,536 - Epoch:114, loss:1.3987
+2023-03-21 22:27:36,573 - Epoch:115, loss:1.3517
+2023-03-21 22:27:36,606 - Epoch:116, loss:1.3731
+2023-03-21 22:27:36,639 - Epoch:117, loss:1.3765
+2023-03-21 22:27:36,674 - Epoch:118, loss:1.3730
+2023-03-21 22:27:36,712 - Epoch:119, loss:1.3723
+2023-03-21 22:27:36,750 - Epoch:120, loss:1.3767
+2023-03-21 22:27:36,791 - Epoch:121, loss:1.3749
+2023-03-21 22:27:36,831 - Epoch:122, loss:1.3693
+2023-03-21 22:27:36,870 - Epoch:123, loss:1.3939
+2023-03-21 22:27:36,909 - Epoch:124, loss:1.4189
+2023-03-21 22:27:36,944 - Epoch:125, loss:1.3543
+2023-03-21 22:27:36,983 - Epoch:126, loss:1.3730
+2023-03-21 22:27:37,026 - Epoch:127, loss:1.3485
+2023-03-21 22:27:37,060 - Epoch:128, loss:1.3944
+2023-03-21 22:27:37,093 - Epoch:129, loss:1.3488
+2023-03-21 22:27:37,132 - Epoch:130, loss:1.3728
+2023-03-21 22:27:37,167 - Epoch:131, loss:1.3928
+2023-03-21 22:27:37,205 - Epoch:132, loss:1.3741
+2023-03-21 22:27:37,245 - Epoch:133, loss:1.4146
+2023-03-21 22:27:37,283 - Epoch:134, loss:1.3487
+2023-03-21 22:27:37,321 - Epoch:135, loss:1.3741
+2023-03-21 22:27:37,357 - Epoch:136, loss:1.3713
+2023-03-21 22:27:37,398 - Epoch:137, loss:1.3485
+2023-03-21 22:27:37,434 - Epoch:138, loss:1.3938
+2023-03-21 22:27:37,478 - Epoch:139, loss:1.3457
+2023-03-21 22:27:37,514 - Epoch:140, loss:1.3734
+2023-03-21 22:27:37,549 - Epoch:141, loss:1.3696
+2023-03-21 22:27:37,591 - Epoch:142, loss:1.3512
+2023-03-21 22:27:37,627 - Epoch:143, loss:1.3699
+2023-03-21 22:27:37,670 - Epoch:144, loss:1.3455
+2023-03-21 22:27:37,705 - Epoch:145, loss:1.3705
+2023-03-21 22:27:37,742 - Epoch:146, loss:1.3681
+2023-03-21 22:27:37,780 - Epoch:147, loss:1.3526
+2023-03-21 22:27:37,818 - Epoch:148, loss:1.4324
+2023-03-21 22:27:37,855 - Epoch:149, loss:1.3709
+2023-03-21 22:27:37,891 - Epoch:150, loss:1.3708
+2023-03-21 22:27:37,938 - Epoch:151, loss:1.3452
+2023-03-21 22:27:37,979 - Epoch:152, loss:1.3408
+2023-03-21 22:27:38,021 - Epoch:153, loss:1.3375
+2023-03-21 22:27:38,059 - Epoch:154, loss:1.3866
+2023-03-21 22:27:38,099 - Epoch:155, loss:1.3517
+2023-03-21 22:27:38,140 - Epoch:156, loss:1.3908
+2023-03-21 22:27:38,180 - Epoch:157, loss:1.3395
+2023-03-21 22:27:38,217 - Epoch:158, loss:1.3688
+2023-03-21 22:27:38,253 - Epoch:159, loss:1.3673
+2023-03-21 22:27:38,291 - Epoch:160, loss:1.3458
+2023-03-21 22:27:38,329 - Epoch:161, loss:1.3782
+2023-03-21 22:27:38,370 - Epoch:162, loss:1.4117
+2023-03-21 22:27:38,409 - Epoch:163, loss:1.3411
+2023-03-21 22:27:38,444 - Epoch:164, loss:1.3925
+2023-03-21 22:27:38,482 - Epoch:165, loss:1.3418
+2023-03-21 22:27:38,524 - Epoch:166, loss:1.3908
+2023-03-21 22:27:38,564 - Epoch:167, loss:1.3678
+2023-03-21 22:27:38,604 - Epoch:168, loss:1.3950
+2023-03-21 22:27:38,643 - Epoch:169, loss:1.3722
+2023-03-21 22:27:38,683 - Epoch:170, loss:1.3464
+2023-03-21 22:27:38,723 - Epoch:171, loss:1.3453
+2023-03-21 22:27:38,759 - Epoch:172, loss:1.3927
+2023-03-21 22:27:38,797 - Epoch:173, loss:1.3654
+2023-03-21 22:27:38,835 - Epoch:174, loss:1.3673
+2023-03-21 22:27:38,874 - Epoch:175, loss:1.3492
+2023-03-21 22:27:38,912 - Epoch:176, loss:1.3382
+2023-03-21 22:27:38,948 - Epoch:177, loss:1.3850
+2023-03-21 22:27:38,990 - Epoch:178, loss:1.3431
+2023-03-21 22:27:39,028 - Epoch:179, loss:1.3511
+2023-03-21 22:27:39,067 - Epoch:180, loss:1.3728
+2023-03-21 22:27:39,106 - Epoch:181, loss:1.3437
+2023-03-21 22:27:39,143 - Epoch:182, loss:1.3424
+2023-03-21 22:27:39,179 - Epoch:183, loss:1.3720
+2023-03-21 22:27:39,217 - Epoch:184, loss:1.3760
+2023-03-21 22:27:39,254 - Epoch:185, loss:1.4089
+2023-03-21 22:27:39,290 - Epoch:186, loss:1.3510
+2023-03-21 22:27:39,328 - Epoch:187, loss:1.3893
+2023-03-21 22:27:39,367 - Epoch:188, loss:1.3833
+2023-03-21 22:27:39,405 - Epoch:189, loss:1.3695
+2023-03-21 22:27:39,442 - Epoch:190, loss:1.3664
+2023-03-21 22:27:39,480 - Epoch:191, loss:1.3614
+2023-03-21 22:27:39,519 - Epoch:192, loss:1.3889
+2023-03-21 22:27:39,557 - Epoch:193, loss:1.3912
+2023-03-21 22:27:39,595 - Epoch:194, loss:1.3404
+2023-03-21 22:27:39,628 - Epoch:195, loss:1.3406
+2023-03-21 22:27:39,663 - Epoch:196, loss:1.3422
+2023-03-21 22:27:39,700 - Epoch:197, loss:1.3417
+2023-03-21 22:27:39,740 - Epoch:198, loss:1.4107
+2023-03-21 22:27:39,779 - Epoch:199, loss:1.3922
+2023-03-21 22:27:39,779 - step:153, best_loss:1.3375
+2023-03-21 22:27:39,787 - ================================Encoder run ends=================================
+2023-03-21 22:27:39,787 - ================================Log runs 1=================================
+2023-03-21 22:27:39,820 - Log_epoch:000, log_loss:1.9604, train_acc:0.0286, val_acc:0.4140
+2023-03-21 22:27:39,823 - Log_epoch:001, log_loss:1.7999, train_acc:0.5786, val_acc:0.6380
+2023-03-21 22:27:39,826 - Log_epoch:002, log_loss:1.6487, train_acc:0.7429, val_acc:0.6880
+2023-03-21 22:27:39,829 - Log_epoch:003, log_loss:1.5075, train_acc:0.8071, val_acc:0.7100
+2023-03-21 22:27:39,831 - Log_epoch:004, log_loss:1.3769, train_acc:0.8143, val_acc:0.7180
+2023-03-21 22:27:39,834 - Log_epoch:005, log_loss:1.2574, train_acc:0.8143, val_acc:0.7180
+2023-03-21 22:27:39,836 - Log_epoch:006, log_loss:1.1493, train_acc:0.8143, val_acc:0.7180
+2023-03-21 22:27:39,838 - Log_epoch:007, log_loss:1.0525, train_acc:0.8143, val_acc:0.7240
+2023-03-21 22:27:39,841 - Log_epoch:008, log_loss:0.9665, train_acc:0.8286, val_acc:0.7280
+2023-03-21 22:27:39,844 - Log_epoch:009, log_loss:0.8908, train_acc:0.8357, val_acc:0.7360
+2023-03-21 22:27:39,846 - Log_epoch:010, log_loss:0.8244, train_acc:0.8357, val_acc:0.7360
+2023-03-21 22:27:39,848 - Log_epoch:011, log_loss:0.7664, train_acc:0.8429, val_acc:0.7380
+2023-03-21 22:27:39,851 - Log_epoch:012, log_loss:0.7158, train_acc:0.8429, val_acc:0.7420
+2023-03-21 22:27:39,854 - Log_epoch:013, log_loss:0.6717, train_acc:0.8500, val_acc:0.7460
+2023-03-21 22:27:39,856 - Log_epoch:014, log_loss:0.6330, train_acc:0.8500, val_acc:0.7520
+2023-03-21 22:27:39,859 - Log_epoch:015, log_loss:0.5991, train_acc:0.8571, val_acc:0.7560
+2023-03-21 22:27:39,861 - Log_epoch:016, log_loss:0.5691, train_acc:0.8571, val_acc:0.7580
+2023-03-21 22:27:39,864 - Log_epoch:017, log_loss:0.5424, train_acc:0.8571, val_acc:0.7600
+2023-03-21 22:27:39,866 - Log_epoch:018, log_loss:0.5186, train_acc:0.8643, val_acc:0.7560
+2023-03-21 22:27:39,868 - Log_epoch:019, log_loss:0.4972, train_acc:0.8643, val_acc:0.7580
+2023-03-21 22:27:39,870 - Log_epoch:020, log_loss:0.4779, train_acc:0.8643, val_acc:0.7600
+2023-03-21 22:27:39,872 - Log_epoch:021, log_loss:0.4602, train_acc:0.8643, val_acc:0.7600
+2023-03-21 22:27:39,875 - Log_epoch:022, log_loss:0.4441, train_acc:0.8643, val_acc:0.7640
+2023-03-21 22:27:39,877 - Log_epoch:023, log_loss:0.4291, train_acc:0.8643, val_acc:0.7640
+2023-03-21 22:27:39,880 - Log_epoch:024, log_loss:0.4153, train_acc:0.8643, val_acc:0.7660
+2023-03-21 22:27:39,882 - Log_epoch:025, log_loss:0.4024, train_acc:0.8714, val_acc:0.7660
+2023-03-21 22:27:39,885 - Log_epoch:026, log_loss:0.3903, train_acc:0.8929, val_acc:0.7680
+2023-03-21 22:27:39,887 - Log_epoch:027, log_loss:0.3789, train_acc:0.9214, val_acc:0.7720
+2023-03-21 22:27:39,889 - Log_epoch:028, log_loss:0.3682, train_acc:0.9286, val_acc:0.7720
+2023-03-21 22:27:39,892 - Log_epoch:029, log_loss:0.3581, train_acc:0.9286, val_acc:0.7740
+2023-03-21 22:27:39,894 - Log_epoch:030, log_loss:0.3485, train_acc:0.9286, val_acc:0.7740
+2023-03-21 22:27:39,897 - Log_epoch:031, log_loss:0.3393, train_acc:0.9286, val_acc:0.7760
+2023-03-21 22:27:39,899 - Log_epoch:032, log_loss:0.3306, train_acc:0.9357, val_acc:0.7760
+2023-03-21 22:27:39,901 - Log_epoch:033, log_loss:0.3223, train_acc:0.9357, val_acc:0.7760
+2023-03-21 22:27:39,903 - Log_epoch:034, log_loss:0.3144, train_acc:0.9357, val_acc:0.7760
+2023-03-21 22:27:39,905 - Log_epoch:035, log_loss:0.3068, train_acc:0.9429, val_acc:0.7760
+2023-03-21 22:27:39,908 - Log_epoch:036, log_loss:0.2996, train_acc:0.9429, val_acc:0.7740
+2023-03-21 22:27:39,910 - Log_epoch:037, log_loss:0.2927, train_acc:0.9429, val_acc:0.7740
+2023-03-21 22:27:39,913 - Log_epoch:038, log_loss:0.2861, train_acc:0.9500, val_acc:0.7760
+2023-03-21 22:27:39,915 - Log_epoch:039, log_loss:0.2797, train_acc:0.9500, val_acc:0.7780
+2023-03-21 22:27:39,918 - Log_epoch:040, log_loss:0.2736, train_acc:0.9500, val_acc:0.7780
+2023-03-21 22:27:39,920 - Log_epoch:041, log_loss:0.2677, train_acc:0.9500, val_acc:0.7780
+2023-03-21 22:27:39,922 - Log_epoch:042, log_loss:0.2621, train_acc:0.9500, val_acc:0.7780
+2023-03-21 22:27:39,925 - Log_epoch:043, log_loss:0.2567, train_acc:0.9500, val_acc:0.7780
+2023-03-21 22:27:39,927 - Log_epoch:044, log_loss:0.2515, train_acc:0.9571, val_acc:0.7780
+2023-03-21 22:27:39,930 - Log_epoch:045, log_loss:0.2465, train_acc:0.9571, val_acc:0.7800
+2023-03-21 22:27:39,932 - Log_epoch:046, log_loss:0.2416, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:39,934 - Log_epoch:047, log_loss:0.2370, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:39,937 - Log_epoch:048, log_loss:0.2324, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:39,939 - Log_epoch:049, log_loss:0.2281, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:39,941 - Log_epoch:050, log_loss:0.2238, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:39,943 - Log_epoch:051, log_loss:0.2197, train_acc:0.9571, val_acc:0.7820
+2023-03-21 22:27:39,946 - Log_epoch:052, log_loss:0.2158, train_acc:0.9571, val_acc:0.7820
+2023-03-21 22:27:39,948 - Log_epoch:053, log_loss:0.2119, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:39,950 - Log_epoch:054, log_loss:0.2082, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:39,953 - Log_epoch:055, log_loss:0.2046, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:39,956 - Log_epoch:056, log_loss:0.2011, train_acc:0.9571, val_acc:0.7900
+2023-03-21 22:27:39,958 - Log_epoch:057, log_loss:0.1977, train_acc:0.9643, val_acc:0.7880
+2023-03-21 22:27:39,960 - Log_epoch:058, log_loss:0.1944, train_acc:0.9714, val_acc:0.7880
+2023-03-21 22:27:39,963 - Log_epoch:059, log_loss:0.1912, train_acc:0.9786, val_acc:0.7920
+2023-03-21 22:27:39,965 - Log_epoch:060, log_loss:0.1880, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:39,967 - Log_epoch:061, log_loss:0.1850, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:39,969 - Log_epoch:062, log_loss:0.1820, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:39,972 - Log_epoch:063, log_loss:0.1791, train_acc:0.9786, val_acc:0.7880
+2023-03-21 22:27:39,974 - Log_epoch:064, log_loss:0.1763, train_acc:0.9786, val_acc:0.7880
+2023-03-21 22:27:39,976 - Log_epoch:065, log_loss:0.1736, train_acc:0.9786, val_acc:0.7880
+2023-03-21 22:27:39,978 - Log_epoch:066, log_loss:0.1709, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:39,980 - Log_epoch:067, log_loss:0.1683, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:39,982 - Log_epoch:068, log_loss:0.1658, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:39,985 - Log_epoch:069, log_loss:0.1633, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:39,987 - Log_epoch:070, log_loss:0.1609, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:39,989 - Log_epoch:071, log_loss:0.1586, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:39,991 - Log_epoch:072, log_loss:0.1563, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:39,994 - Log_epoch:073, log_loss:0.1541, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:39,996 - Log_epoch:074, log_loss:0.1519, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:39,998 - Log_epoch:075, log_loss:0.1498, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:40,000 - Log_epoch:076, log_loss:0.1477, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:40,002 - Log_epoch:077, log_loss:0.1456, train_acc:0.9857, val_acc:0.7740
+2023-03-21 22:27:40,004 - Log_epoch:078, log_loss:0.1437, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:40,006 - Log_epoch:079, log_loss:0.1417, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:40,008 - Log_epoch:080, log_loss:0.1398, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:40,010 - Log_epoch:081, log_loss:0.1380, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:40,012 - Log_epoch:082, log_loss:0.1362, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:40,014 - Log_epoch:083, log_loss:0.1344, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:40,016 - Log_epoch:084, log_loss:0.1327, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:40,018 - Log_epoch:085, log_loss:0.1310, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:40,020 - Log_epoch:086, log_loss:0.1293, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:40,022 - Log_epoch:087, log_loss:0.1277, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:40,024 - Log_epoch:088, log_loss:0.1261, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:40,026 - Log_epoch:089, log_loss:0.1246, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:40,029 - Log_epoch:090, log_loss:0.1231, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:40,031 - Log_epoch:091, log_loss:0.1216, train_acc:0.9857, val_acc:0.7740
+2023-03-21 22:27:40,034 - Log_epoch:092, log_loss:0.1201, train_acc:0.9857, val_acc:0.7740
+2023-03-21 22:27:40,036 - Log_epoch:093, log_loss:0.1187, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:40,039 - Log_epoch:094, log_loss:0.1173, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:40,041 - Log_epoch:095, log_loss:0.1159, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:40,044 - Log_epoch:096, log_loss:0.1145, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:40,047 - Log_epoch:097, log_loss:0.1132, train_acc:0.9857, val_acc:0.7680
+2023-03-21 22:27:40,050 - Log_epoch:098, log_loss:0.1119, train_acc:0.9857, val_acc:0.7680
+2023-03-21 22:27:40,052 - Log_epoch:099, log_loss:0.1107, train_acc:0.9857, val_acc:0.7680
+2023-03-21 22:27:40,055 - Log_epoch:100, log_loss:0.1094, train_acc:0.9857, val_acc:0.7680
+2023-03-21 22:27:40,058 - Log_epoch:101, log_loss:0.1082, train_acc:0.9857, val_acc:0.7680
+2023-03-21 22:27:40,061 - Log_epoch:102, log_loss:0.1070, train_acc:0.9857, val_acc:0.7680
+2023-03-21 22:27:40,063 - Log_epoch:103, log_loss:0.1058, train_acc:0.9857, val_acc:0.7680
+2023-03-21 22:27:40,066 - Log_epoch:104, log_loss:0.1046, train_acc:0.9857, val_acc:0.7680
+2023-03-21 22:27:40,069 - Log_epoch:105, log_loss:0.1035, train_acc:0.9857, val_acc:0.7680
+2023-03-21 22:27:40,072 - Log_epoch:106, log_loss:0.1024, train_acc:0.9857, val_acc:0.7680
+2023-03-21 22:27:40,074 - Log_epoch:107, log_loss:0.1013, train_acc:0.9857, val_acc:0.7680
+2023-03-21 22:27:40,077 - Log_epoch:108, log_loss:0.1002, train_acc:0.9857, val_acc:0.7680
+2023-03-21 22:27:40,080 - Log_epoch:109, log_loss:0.0992, train_acc:0.9857, val_acc:0.7680
+2023-03-21 22:27:40,083 - Log_epoch:110, log_loss:0.0981, train_acc:0.9857, val_acc:0.7680
+2023-03-21 22:27:40,085 - Log_epoch:111, log_loss:0.0971, train_acc:0.9857, val_acc:0.7680
+2023-03-21 22:27:40,088 - Log_epoch:112, log_loss:0.0961, train_acc:0.9857, val_acc:0.7680
+2023-03-21 22:27:40,091 - Log_epoch:113, log_loss:0.0951, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,093 - Log_epoch:114, log_loss:0.0942, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,096 - Log_epoch:115, log_loss:0.0932, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,099 - Log_epoch:116, log_loss:0.0923, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,101 - Log_epoch:117, log_loss:0.0914, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,104 - Log_epoch:118, log_loss:0.0905, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,106 - Log_epoch:119, log_loss:0.0896, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,109 - Log_epoch:120, log_loss:0.0887, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,111 - Log_epoch:121, log_loss:0.0878, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,114 - Log_epoch:122, log_loss:0.0870, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,116 - Log_epoch:123, log_loss:0.0862, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,119 - Log_epoch:124, log_loss:0.0854, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,121 - Log_epoch:125, log_loss:0.0845, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,123 - Log_epoch:126, log_loss:0.0838, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,126 - Log_epoch:127, log_loss:0.0830, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,129 - Log_epoch:128, log_loss:0.0822, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,131 - Log_epoch:129, log_loss:0.0815, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,134 - Log_epoch:130, log_loss:0.0807, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,136 - Log_epoch:131, log_loss:0.0800, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,138 - Log_epoch:132, log_loss:0.0793, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,141 - Log_epoch:133, log_loss:0.0786, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,143 - Log_epoch:134, log_loss:0.0779, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,146 - Log_epoch:135, log_loss:0.0772, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,149 - Log_epoch:136, log_loss:0.0765, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,151 - Log_epoch:137, log_loss:0.0758, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,154 - Log_epoch:138, log_loss:0.0752, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,156 - Log_epoch:139, log_loss:0.0745, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,159 - Log_epoch:140, log_loss:0.0739, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,161 - Log_epoch:141, log_loss:0.0733, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,164 - Log_epoch:142, log_loss:0.0727, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,166 - Log_epoch:143, log_loss:0.0721, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,169 - Log_epoch:144, log_loss:0.0715, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,171 - Log_epoch:145, log_loss:0.0709, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,174 - Log_epoch:146, log_loss:0.0703, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,176 - Log_epoch:147, log_loss:0.0697, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,179 - Log_epoch:148, log_loss:0.0692, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,181 - Log_epoch:149, log_loss:0.0686, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,183 - Log_epoch:150, log_loss:0.0680, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,186 - Log_epoch:151, log_loss:0.0675, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,188 - Log_epoch:152, log_loss:0.0670, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,191 - Log_epoch:153, log_loss:0.0664, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,193 - Log_epoch:154, log_loss:0.0659, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,196 - Log_epoch:155, log_loss:0.0654, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,198 - Log_epoch:156, log_loss:0.0649, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,200 - Log_epoch:157, log_loss:0.0644, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,203 - Log_epoch:158, log_loss:0.0639, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,205 - Log_epoch:159, log_loss:0.0634, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,208 - Log_epoch:160, log_loss:0.0630, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,210 - Log_epoch:161, log_loss:0.0625, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:40,213 - Log_epoch:162, log_loss:0.0620, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:40,216 - Log_epoch:163, log_loss:0.0616, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:40,218 - Log_epoch:164, log_loss:0.0611, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:40,221 - Log_epoch:165, log_loss:0.0607, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,224 - Log_epoch:166, log_loss:0.0602, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,227 - Log_epoch:167, log_loss:0.0598, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,229 - Log_epoch:168, log_loss:0.0594, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,232 - Log_epoch:169, log_loss:0.0589, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,234 - Log_epoch:170, log_loss:0.0585, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,237 - Log_epoch:171, log_loss:0.0581, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,239 - Log_epoch:172, log_loss:0.0577, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,242 - Log_epoch:173, log_loss:0.0573, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,244 - Log_epoch:174, log_loss:0.0569, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,247 - Log_epoch:175, log_loss:0.0565, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,249 - Log_epoch:176, log_loss:0.0561, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,252 - Log_epoch:177, log_loss:0.0557, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,254 - Log_epoch:178, log_loss:0.0554, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,257 - Log_epoch:179, log_loss:0.0550, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,259 - Log_epoch:180, log_loss:0.0546, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,262 - Log_epoch:181, log_loss:0.0543, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,264 - Log_epoch:182, log_loss:0.0539, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,267 - Log_epoch:183, log_loss:0.0535, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,269 - Log_epoch:184, log_loss:0.0532, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,272 - Log_epoch:185, log_loss:0.0529, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,274 - Log_epoch:186, log_loss:0.0525, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,277 - Log_epoch:187, log_loss:0.0522, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,279 - Log_epoch:188, log_loss:0.0518, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,282 - Log_epoch:189, log_loss:0.0515, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,284 - Log_epoch:190, log_loss:0.0512, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,286 - Log_epoch:191, log_loss:0.0509, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,289 - Log_epoch:192, log_loss:0.0505, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,291 - Log_epoch:193, log_loss:0.0502, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,294 - Log_epoch:194, log_loss:0.0499, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,296 - Log_epoch:195, log_loss:0.0496, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,299 - Log_epoch:196, log_loss:0.0493, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,301 - Log_epoch:197, log_loss:0.0490, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,304 - Log_epoch:198, log_loss:0.0487, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,306 - Log_epoch:199, log_loss:0.0484, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,307 - test_acc:0.816, log_step:59
+2023-03-21 22:27:40,308 - model runs 1 times, mean_acc=0.816+-0.0
+2023-03-21 22:27:40,308 - ================================Log runs 2=================================
+2023-03-21 22:27:40,326 - Log_epoch:000, log_loss:1.9724, train_acc:0.0929, val_acc:0.5520
+2023-03-21 22:27:40,329 - Log_epoch:001, log_loss:1.8109, train_acc:0.5929, val_acc:0.6840
+2023-03-21 22:27:40,333 - Log_epoch:002, log_loss:1.6586, train_acc:0.7857, val_acc:0.7200
+2023-03-21 22:27:40,337 - Log_epoch:003, log_loss:1.5165, train_acc:0.8143, val_acc:0.7360
+2023-03-21 22:27:40,341 - Log_epoch:004, log_loss:1.3850, train_acc:0.8143, val_acc:0.7500
+2023-03-21 22:27:40,344 - Log_epoch:005, log_loss:1.2647, train_acc:0.8143, val_acc:0.7520
+2023-03-21 22:27:40,346 - Log_epoch:006, log_loss:1.1558, train_acc:0.8214, val_acc:0.7500
+2023-03-21 22:27:40,348 - Log_epoch:007, log_loss:1.0582, train_acc:0.8214, val_acc:0.7500
+2023-03-21 22:27:40,350 - Log_epoch:008, log_loss:0.9716, train_acc:0.8357, val_acc:0.7520
+2023-03-21 22:27:40,353 - Log_epoch:009, log_loss:0.8953, train_acc:0.8429, val_acc:0.7500
+2023-03-21 22:27:40,355 - Log_epoch:010, log_loss:0.8284, train_acc:0.8429, val_acc:0.7520
+2023-03-21 22:27:40,358 - Log_epoch:011, log_loss:0.7699, train_acc:0.8571, val_acc:0.7540
+2023-03-21 22:27:40,360 - Log_epoch:012, log_loss:0.7190, train_acc:0.8571, val_acc:0.7540
+2023-03-21 22:27:40,363 - Log_epoch:013, log_loss:0.6745, train_acc:0.8643, val_acc:0.7560
+2023-03-21 22:27:40,365 - Log_epoch:014, log_loss:0.6356, train_acc:0.8643, val_acc:0.7600
+2023-03-21 22:27:40,368 - Log_epoch:015, log_loss:0.6014, train_acc:0.8643, val_acc:0.7620
+2023-03-21 22:27:40,371 - Log_epoch:016, log_loss:0.5713, train_acc:0.8643, val_acc:0.7680
+2023-03-21 22:27:40,373 - Log_epoch:017, log_loss:0.5445, train_acc:0.8714, val_acc:0.7680
+2023-03-21 22:27:40,375 - Log_epoch:018, log_loss:0.5206, train_acc:0.8714, val_acc:0.7680
+2023-03-21 22:27:40,377 - Log_epoch:019, log_loss:0.4992, train_acc:0.8714, val_acc:0.7680
+2023-03-21 22:27:40,380 - Log_epoch:020, log_loss:0.4798, train_acc:0.8714, val_acc:0.7720
+2023-03-21 22:27:40,382 - Log_epoch:021, log_loss:0.4621, train_acc:0.8714, val_acc:0.7780
+2023-03-21 22:27:40,385 - Log_epoch:022, log_loss:0.4460, train_acc:0.8714, val_acc:0.7800
+2023-03-21 22:27:40,387 - Log_epoch:023, log_loss:0.4310, train_acc:0.8786, val_acc:0.7780
+2023-03-21 22:27:40,389 - Log_epoch:024, log_loss:0.4172, train_acc:0.8857, val_acc:0.7740
+2023-03-21 22:27:40,392 - Log_epoch:025, log_loss:0.4043, train_acc:0.9000, val_acc:0.7740
+2023-03-21 22:27:40,394 - Log_epoch:026, log_loss:0.3922, train_acc:0.9071, val_acc:0.7760
+2023-03-21 22:27:40,396 - Log_epoch:027, log_loss:0.3809, train_acc:0.9071, val_acc:0.7740
+2023-03-21 22:27:40,399 - Log_epoch:028, log_loss:0.3702, train_acc:0.9214, val_acc:0.7760
+2023-03-21 22:27:40,401 - Log_epoch:029, log_loss:0.3601, train_acc:0.9286, val_acc:0.7760
+2023-03-21 22:27:40,403 - Log_epoch:030, log_loss:0.3505, train_acc:0.9286, val_acc:0.7780
+2023-03-21 22:27:40,405 - Log_epoch:031, log_loss:0.3413, train_acc:0.9286, val_acc:0.7780
+2023-03-21 22:27:40,408 - Log_epoch:032, log_loss:0.3327, train_acc:0.9286, val_acc:0.7780
+2023-03-21 22:27:40,410 - Log_epoch:033, log_loss:0.3244, train_acc:0.9286, val_acc:0.7800
+2023-03-21 22:27:40,412 - Log_epoch:034, log_loss:0.3165, train_acc:0.9357, val_acc:0.7800
+2023-03-21 22:27:40,414 - Log_epoch:035, log_loss:0.3090, train_acc:0.9357, val_acc:0.7800
+2023-03-21 22:27:40,417 - Log_epoch:036, log_loss:0.3018, train_acc:0.9429, val_acc:0.7800
+2023-03-21 22:27:40,419 - Log_epoch:037, log_loss:0.2949, train_acc:0.9429, val_acc:0.7800
+2023-03-21 22:27:40,421 - Log_epoch:038, log_loss:0.2884, train_acc:0.9500, val_acc:0.7800
+2023-03-21 22:27:40,424 - Log_epoch:039, log_loss:0.2820, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:40,426 - Log_epoch:040, log_loss:0.2760, train_acc:0.9500, val_acc:0.7800
+2023-03-21 22:27:40,429 - Log_epoch:041, log_loss:0.2702, train_acc:0.9500, val_acc:0.7800
+2023-03-21 22:27:40,431 - Log_epoch:042, log_loss:0.2646, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:40,433 - Log_epoch:043, log_loss:0.2592, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:40,435 - Log_epoch:044, log_loss:0.2541, train_acc:0.9571, val_acc:0.7820
+2023-03-21 22:27:40,438 - Log_epoch:045, log_loss:0.2491, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:40,441 - Log_epoch:046, log_loss:0.2443, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:40,443 - Log_epoch:047, log_loss:0.2396, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:40,445 - Log_epoch:048, log_loss:0.2351, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:40,447 - Log_epoch:049, log_loss:0.2308, train_acc:0.9571, val_acc:0.7880
+2023-03-21 22:27:40,450 - Log_epoch:050, log_loss:0.2266, train_acc:0.9571, val_acc:0.7880
+2023-03-21 22:27:40,452 - Log_epoch:051, log_loss:0.2225, train_acc:0.9571, val_acc:0.7900
+2023-03-21 22:27:40,454 - Log_epoch:052, log_loss:0.2186, train_acc:0.9571, val_acc:0.7900
+2023-03-21 22:27:40,457 - Log_epoch:053, log_loss:0.2147, train_acc:0.9571, val_acc:0.7900
+2023-03-21 22:27:40,459 - Log_epoch:054, log_loss:0.2110, train_acc:0.9571, val_acc:0.7880
+2023-03-21 22:27:40,462 - Log_epoch:055, log_loss:0.2074, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:40,464 - Log_epoch:056, log_loss:0.2039, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:40,466 - Log_epoch:057, log_loss:0.2005, train_acc:0.9643, val_acc:0.7840
+2023-03-21 22:27:40,469 - Log_epoch:058, log_loss:0.1972, train_acc:0.9643, val_acc:0.7860
+2023-03-21 22:27:40,471 - Log_epoch:059, log_loss:0.1939, train_acc:0.9643, val_acc:0.7860
+2023-03-21 22:27:40,473 - Log_epoch:060, log_loss:0.1908, train_acc:0.9714, val_acc:0.7860
+2023-03-21 22:27:40,476 - Log_epoch:061, log_loss:0.1877, train_acc:0.9786, val_acc:0.7880
+2023-03-21 22:27:40,478 - Log_epoch:062, log_loss:0.1848, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:40,480 - Log_epoch:063, log_loss:0.1819, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:40,483 - Log_epoch:064, log_loss:0.1790, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:40,485 - Log_epoch:065, log_loss:0.1763, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:40,489 - Log_epoch:066, log_loss:0.1736, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:40,494 - Log_epoch:067, log_loss:0.1710, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:40,498 - Log_epoch:068, log_loss:0.1685, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:40,502 - Log_epoch:069, log_loss:0.1660, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:40,506 - Log_epoch:070, log_loss:0.1635, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:40,509 - Log_epoch:071, log_loss:0.1612, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:40,512 - Log_epoch:072, log_loss:0.1589, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:40,515 - Log_epoch:073, log_loss:0.1566, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:40,518 - Log_epoch:074, log_loss:0.1544, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:40,521 - Log_epoch:075, log_loss:0.1523, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:40,524 - Log_epoch:076, log_loss:0.1502, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:40,527 - Log_epoch:077, log_loss:0.1481, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:40,530 - Log_epoch:078, log_loss:0.1461, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:40,533 - Log_epoch:079, log_loss:0.1442, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:40,536 - Log_epoch:080, log_loss:0.1422, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:40,538 - Log_epoch:081, log_loss:0.1404, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:40,541 - Log_epoch:082, log_loss:0.1385, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:40,544 - Log_epoch:083, log_loss:0.1368, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:40,547 - Log_epoch:084, log_loss:0.1350, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:40,550 - Log_epoch:085, log_loss:0.1333, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:40,553 - Log_epoch:086, log_loss:0.1316, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:40,556 - Log_epoch:087, log_loss:0.1300, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:40,558 - Log_epoch:088, log_loss:0.1284, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:40,561 - Log_epoch:089, log_loss:0.1268, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:40,564 - Log_epoch:090, log_loss:0.1252, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:40,567 - Log_epoch:091, log_loss:0.1237, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:40,570 - Log_epoch:092, log_loss:0.1222, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:40,573 - Log_epoch:093, log_loss:0.1208, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:40,575 - Log_epoch:094, log_loss:0.1194, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:40,578 - Log_epoch:095, log_loss:0.1180, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:40,581 - Log_epoch:096, log_loss:0.1166, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:40,584 - Log_epoch:097, log_loss:0.1153, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:40,587 - Log_epoch:098, log_loss:0.1139, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:40,590 - Log_epoch:099, log_loss:0.1126, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:40,592 - Log_epoch:100, log_loss:0.1114, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:40,595 - Log_epoch:101, log_loss:0.1101, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:40,598 - Log_epoch:102, log_loss:0.1089, train_acc:0.9857, val_acc:0.7740
+2023-03-21 22:27:40,601 - Log_epoch:103, log_loss:0.1077, train_acc:0.9857, val_acc:0.7740
+2023-03-21 22:27:40,604 - Log_epoch:104, log_loss:0.1065, train_acc:0.9857, val_acc:0.7740
+2023-03-21 22:27:40,607 - Log_epoch:105, log_loss:0.1054, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:40,609 - Log_epoch:106, log_loss:0.1043, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:40,612 - Log_epoch:107, log_loss:0.1031, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:40,615 - Log_epoch:108, log_loss:0.1020, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:40,618 - Log_epoch:109, log_loss:0.1010, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:40,621 - Log_epoch:110, log_loss:0.0999, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:40,624 - Log_epoch:111, log_loss:0.0989, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:40,626 - Log_epoch:112, log_loss:0.0979, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:40,629 - Log_epoch:113, log_loss:0.0969, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:40,632 - Log_epoch:114, log_loss:0.0959, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:40,635 - Log_epoch:115, log_loss:0.0949, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:40,638 - Log_epoch:116, log_loss:0.0940, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:40,641 - Log_epoch:117, log_loss:0.0930, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:40,644 - Log_epoch:118, log_loss:0.0921, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,646 - Log_epoch:119, log_loss:0.0912, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,650 - Log_epoch:120, log_loss:0.0903, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,653 - Log_epoch:121, log_loss:0.0894, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,656 - Log_epoch:122, log_loss:0.0886, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,659 - Log_epoch:123, log_loss:0.0877, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,662 - Log_epoch:124, log_loss:0.0869, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,665 - Log_epoch:125, log_loss:0.0861, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,668 - Log_epoch:126, log_loss:0.0853, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,671 - Log_epoch:127, log_loss:0.0845, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,674 - Log_epoch:128, log_loss:0.0837, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,677 - Log_epoch:129, log_loss:0.0829, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:40,680 - Log_epoch:130, log_loss:0.0822, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,683 - Log_epoch:131, log_loss:0.0814, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,686 - Log_epoch:132, log_loss:0.0807, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,689 - Log_epoch:133, log_loss:0.0800, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,691 - Log_epoch:134, log_loss:0.0793, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,694 - Log_epoch:135, log_loss:0.0786, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,697 - Log_epoch:136, log_loss:0.0779, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,700 - Log_epoch:137, log_loss:0.0772, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,703 - Log_epoch:138, log_loss:0.0765, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,706 - Log_epoch:139, log_loss:0.0759, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,708 - Log_epoch:140, log_loss:0.0752, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,711 - Log_epoch:141, log_loss:0.0746, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,714 - Log_epoch:142, log_loss:0.0740, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,717 - Log_epoch:143, log_loss:0.0734, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,720 - Log_epoch:144, log_loss:0.0727, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,722 - Log_epoch:145, log_loss:0.0721, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,725 - Log_epoch:146, log_loss:0.0715, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,728 - Log_epoch:147, log_loss:0.0710, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,731 - Log_epoch:148, log_loss:0.0704, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,734 - Log_epoch:149, log_loss:0.0698, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,736 - Log_epoch:150, log_loss:0.0693, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,739 - Log_epoch:151, log_loss:0.0687, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,742 - Log_epoch:152, log_loss:0.0682, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,745 - Log_epoch:153, log_loss:0.0676, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:40,748 - Log_epoch:154, log_loss:0.0671, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,751 - Log_epoch:155, log_loss:0.0666, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,754 - Log_epoch:156, log_loss:0.0661, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,756 - Log_epoch:157, log_loss:0.0655, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,759 - Log_epoch:158, log_loss:0.0650, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,762 - Log_epoch:159, log_loss:0.0646, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,765 - Log_epoch:160, log_loss:0.0641, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,768 - Log_epoch:161, log_loss:0.0636, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,771 - Log_epoch:162, log_loss:0.0631, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,773 - Log_epoch:163, log_loss:0.0626, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,776 - Log_epoch:164, log_loss:0.0622, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,779 - Log_epoch:165, log_loss:0.0617, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,782 - Log_epoch:166, log_loss:0.0613, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,785 - Log_epoch:167, log_loss:0.0608, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,788 - Log_epoch:168, log_loss:0.0604, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,790 - Log_epoch:169, log_loss:0.0600, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,793 - Log_epoch:170, log_loss:0.0595, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,796 - Log_epoch:171, log_loss:0.0591, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,799 - Log_epoch:172, log_loss:0.0587, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,802 - Log_epoch:173, log_loss:0.0583, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,805 - Log_epoch:174, log_loss:0.0579, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,807 - Log_epoch:175, log_loss:0.0575, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,811 - Log_epoch:176, log_loss:0.0571, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,814 - Log_epoch:177, log_loss:0.0567, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,817 - Log_epoch:178, log_loss:0.0563, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,820 - Log_epoch:179, log_loss:0.0559, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,823 - Log_epoch:180, log_loss:0.0555, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,826 - Log_epoch:181, log_loss:0.0552, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,829 - Log_epoch:182, log_loss:0.0548, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,831 - Log_epoch:183, log_loss:0.0544, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,834 - Log_epoch:184, log_loss:0.0541, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,837 - Log_epoch:185, log_loss:0.0537, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:40,840 - Log_epoch:186, log_loss:0.0534, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,843 - Log_epoch:187, log_loss:0.0530, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,846 - Log_epoch:188, log_loss:0.0527, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,849 - Log_epoch:189, log_loss:0.0524, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,852 - Log_epoch:190, log_loss:0.0520, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,855 - Log_epoch:191, log_loss:0.0517, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,858 - Log_epoch:192, log_loss:0.0514, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,861 - Log_epoch:193, log_loss:0.0511, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:40,864 - Log_epoch:194, log_loss:0.0507, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:40,867 - Log_epoch:195, log_loss:0.0504, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:40,869 - Log_epoch:196, log_loss:0.0501, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:40,872 - Log_epoch:197, log_loss:0.0498, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:40,875 - Log_epoch:198, log_loss:0.0495, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:40,878 - Log_epoch:199, log_loss:0.0492, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:40,881 - test_acc:0.813, log_step:51
+2023-03-21 22:27:40,881 - model runs 2 times, mean_acc=0.8145+-0.0015000000000000013
+2023-03-21 22:27:40,881 - ================================Log runs 3=================================
+2023-03-21 22:27:40,904 - Log_epoch:000, log_loss:1.9355, train_acc:0.2571, val_acc:0.4460
+2023-03-21 22:27:40,907 - Log_epoch:001, log_loss:1.7761, train_acc:0.5643, val_acc:0.6280
+2023-03-21 22:27:40,910 - Log_epoch:002, log_loss:1.6259, train_acc:0.7714, val_acc:0.7120
+2023-03-21 22:27:40,913 - Log_epoch:003, log_loss:1.4858, train_acc:0.8071, val_acc:0.7280
+2023-03-21 22:27:40,915 - Log_epoch:004, log_loss:1.3563, train_acc:0.8214, val_acc:0.7260
+2023-03-21 22:27:40,918 - Log_epoch:005, log_loss:1.2381, train_acc:0.8357, val_acc:0.7400
+2023-03-21 22:27:40,920 - Log_epoch:006, log_loss:1.1313, train_acc:0.8500, val_acc:0.7420
+2023-03-21 22:27:40,923 - Log_epoch:007, log_loss:1.0359, train_acc:0.8429, val_acc:0.7380
+2023-03-21 22:27:40,925 - Log_epoch:008, log_loss:0.9515, train_acc:0.8500, val_acc:0.7480
+2023-03-21 22:27:40,928 - Log_epoch:009, log_loss:0.8773, train_acc:0.8500, val_acc:0.7480
+2023-03-21 22:27:40,930 - Log_epoch:010, log_loss:0.8125, train_acc:0.8429, val_acc:0.7500
+2023-03-21 22:27:40,933 - Log_epoch:011, log_loss:0.7560, train_acc:0.8500, val_acc:0.7520
+2023-03-21 22:27:40,936 - Log_epoch:012, log_loss:0.7068, train_acc:0.8571, val_acc:0.7560
+2023-03-21 22:27:40,938 - Log_epoch:013, log_loss:0.6640, train_acc:0.8571, val_acc:0.7640
+2023-03-21 22:27:40,941 - Log_epoch:014, log_loss:0.6265, train_acc:0.8714, val_acc:0.7660
+2023-03-21 22:27:40,943 - Log_epoch:015, log_loss:0.5935, train_acc:0.8643, val_acc:0.7660
+2023-03-21 22:27:40,946 - Log_epoch:016, log_loss:0.5644, train_acc:0.8643, val_acc:0.7680
+2023-03-21 22:27:40,949 - Log_epoch:017, log_loss:0.5386, train_acc:0.8643, val_acc:0.7740
+2023-03-21 22:27:40,951 - Log_epoch:018, log_loss:0.5154, train_acc:0.8643, val_acc:0.7680
+2023-03-21 22:27:40,953 - Log_epoch:019, log_loss:0.4946, train_acc:0.8643, val_acc:0.7660
+2023-03-21 22:27:40,955 - Log_epoch:020, log_loss:0.4757, train_acc:0.8714, val_acc:0.7660
+2023-03-21 22:27:40,958 - Log_epoch:021, log_loss:0.4585, train_acc:0.8714, val_acc:0.7680
+2023-03-21 22:27:40,960 - Log_epoch:022, log_loss:0.4427, train_acc:0.8714, val_acc:0.7720
+2023-03-21 22:27:40,962 - Log_epoch:023, log_loss:0.4281, train_acc:0.8786, val_acc:0.7720
+2023-03-21 22:27:40,965 - Log_epoch:024, log_loss:0.4145, train_acc:0.8857, val_acc:0.7740
+2023-03-21 22:27:40,967 - Log_epoch:025, log_loss:0.4019, train_acc:0.8857, val_acc:0.7760
+2023-03-21 22:27:40,970 - Log_epoch:026, log_loss:0.3900, train_acc:0.8857, val_acc:0.7780
+2023-03-21 22:27:40,972 - Log_epoch:027, log_loss:0.3788, train_acc:0.9071, val_acc:0.7780
+2023-03-21 22:27:40,974 - Log_epoch:028, log_loss:0.3683, train_acc:0.9214, val_acc:0.7780
+2023-03-21 22:27:40,977 - Log_epoch:029, log_loss:0.3583, train_acc:0.9214, val_acc:0.7820
+2023-03-21 22:27:40,979 - Log_epoch:030, log_loss:0.3488, train_acc:0.9286, val_acc:0.7820
+2023-03-21 22:27:40,982 - Log_epoch:031, log_loss:0.3397, train_acc:0.9286, val_acc:0.7820
+2023-03-21 22:27:40,984 - Log_epoch:032, log_loss:0.3311, train_acc:0.9286, val_acc:0.7820
+2023-03-21 22:27:40,986 - Log_epoch:033, log_loss:0.3229, train_acc:0.9286, val_acc:0.7820
+2023-03-21 22:27:40,989 - Log_epoch:034, log_loss:0.3151, train_acc:0.9357, val_acc:0.7820
+2023-03-21 22:27:40,991 - Log_epoch:035, log_loss:0.3076, train_acc:0.9429, val_acc:0.7820
+2023-03-21 22:27:40,994 - Log_epoch:036, log_loss:0.3004, train_acc:0.9429, val_acc:0.7820
+2023-03-21 22:27:40,997 - Log_epoch:037, log_loss:0.2935, train_acc:0.9429, val_acc:0.7840
+2023-03-21 22:27:40,999 - Log_epoch:038, log_loss:0.2869, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:41,002 - Log_epoch:039, log_loss:0.2806, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:41,004 - Log_epoch:040, log_loss:0.2746, train_acc:0.9500, val_acc:0.7800
+2023-03-21 22:27:41,007 - Log_epoch:041, log_loss:0.2687, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:41,009 - Log_epoch:042, log_loss:0.2631, train_acc:0.9500, val_acc:0.7840
+2023-03-21 22:27:41,012 - Log_epoch:043, log_loss:0.2578, train_acc:0.9500, val_acc:0.7860
+2023-03-21 22:27:41,014 - Log_epoch:044, log_loss:0.2526, train_acc:0.9500, val_acc:0.7840
+2023-03-21 22:27:41,017 - Log_epoch:045, log_loss:0.2476, train_acc:0.9500, val_acc:0.7840
+2023-03-21 22:27:41,019 - Log_epoch:046, log_loss:0.2427, train_acc:0.9500, val_acc:0.7840
+2023-03-21 22:27:41,022 - Log_epoch:047, log_loss:0.2381, train_acc:0.9500, val_acc:0.7840
+2023-03-21 22:27:41,024 - Log_epoch:048, log_loss:0.2336, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:41,027 - Log_epoch:049, log_loss:0.2292, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:41,029 - Log_epoch:050, log_loss:0.2250, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:41,031 - Log_epoch:051, log_loss:0.2209, train_acc:0.9571, val_acc:0.7820
+2023-03-21 22:27:41,034 - Log_epoch:052, log_loss:0.2169, train_acc:0.9571, val_acc:0.7820
+2023-03-21 22:27:41,036 - Log_epoch:053, log_loss:0.2131, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:41,039 - Log_epoch:054, log_loss:0.2094, train_acc:0.9571, val_acc:0.7880
+2023-03-21 22:27:41,041 - Log_epoch:055, log_loss:0.2058, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:41,043 - Log_epoch:056, log_loss:0.2022, train_acc:0.9643, val_acc:0.7860
+2023-03-21 22:27:41,046 - Log_epoch:057, log_loss:0.1988, train_acc:0.9643, val_acc:0.7860
+2023-03-21 22:27:41,048 - Log_epoch:058, log_loss:0.1955, train_acc:0.9714, val_acc:0.7860
+2023-03-21 22:27:41,051 - Log_epoch:059, log_loss:0.1923, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:41,053 - Log_epoch:060, log_loss:0.1891, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:41,055 - Log_epoch:061, log_loss:0.1861, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:41,058 - Log_epoch:062, log_loss:0.1831, train_acc:0.9786, val_acc:0.7880
+2023-03-21 22:27:41,060 - Log_epoch:063, log_loss:0.1802, train_acc:0.9786, val_acc:0.7900
+2023-03-21 22:27:41,063 - Log_epoch:064, log_loss:0.1774, train_acc:0.9786, val_acc:0.7900
+2023-03-21 22:27:41,065 - Log_epoch:065, log_loss:0.1747, train_acc:0.9786, val_acc:0.7900
+2023-03-21 22:27:41,067 - Log_epoch:066, log_loss:0.1720, train_acc:0.9786, val_acc:0.7880
+2023-03-21 22:27:41,070 - Log_epoch:067, log_loss:0.1694, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:41,072 - Log_epoch:068, log_loss:0.1668, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:41,075 - Log_epoch:069, log_loss:0.1644, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:41,077 - Log_epoch:070, log_loss:0.1620, train_acc:0.9857, val_acc:0.7880
+2023-03-21 22:27:41,079 - Log_epoch:071, log_loss:0.1596, train_acc:0.9857, val_acc:0.7880
+2023-03-21 22:27:41,082 - Log_epoch:072, log_loss:0.1573, train_acc:0.9857, val_acc:0.7880
+2023-03-21 22:27:41,084 - Log_epoch:073, log_loss:0.1551, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:41,086 - Log_epoch:074, log_loss:0.1529, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:41,088 - Log_epoch:075, log_loss:0.1507, train_acc:0.9857, val_acc:0.7880
+2023-03-21 22:27:41,090 - Log_epoch:076, log_loss:0.1486, train_acc:0.9857, val_acc:0.7880
+2023-03-21 22:27:41,092 - Log_epoch:077, log_loss:0.1466, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:41,094 - Log_epoch:078, log_loss:0.1446, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:41,096 - Log_epoch:079, log_loss:0.1427, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:41,098 - Log_epoch:080, log_loss:0.1408, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:41,100 - Log_epoch:081, log_loss:0.1389, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:41,102 - Log_epoch:082, log_loss:0.1371, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:41,103 - Log_epoch:083, log_loss:0.1353, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:41,105 - Log_epoch:084, log_loss:0.1336, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:41,107 - Log_epoch:085, log_loss:0.1319, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:41,109 - Log_epoch:086, log_loss:0.1302, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:41,111 - Log_epoch:087, log_loss:0.1286, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:41,113 - Log_epoch:088, log_loss:0.1270, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:41,116 - Log_epoch:089, log_loss:0.1254, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:41,118 - Log_epoch:090, log_loss:0.1239, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:41,120 - Log_epoch:091, log_loss:0.1224, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:41,122 - Log_epoch:092, log_loss:0.1209, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:41,125 - Log_epoch:093, log_loss:0.1195, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:41,127 - Log_epoch:094, log_loss:0.1180, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:41,129 - Log_epoch:095, log_loss:0.1167, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:41,132 - Log_epoch:096, log_loss:0.1153, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:41,134 - Log_epoch:097, log_loss:0.1140, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:41,137 - Log_epoch:098, log_loss:0.1127, train_acc:0.9857, val_acc:0.7740
+2023-03-21 22:27:41,140 - Log_epoch:099, log_loss:0.1114, train_acc:0.9857, val_acc:0.7740
+2023-03-21 22:27:41,143 - Log_epoch:100, log_loss:0.1101, train_acc:0.9857, val_acc:0.7740
+2023-03-21 22:27:41,145 - Log_epoch:101, log_loss:0.1089, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:41,148 - Log_epoch:102, log_loss:0.1077, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:41,151 - Log_epoch:103, log_loss:0.1065, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:41,154 - Log_epoch:104, log_loss:0.1053, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:41,156 - Log_epoch:105, log_loss:0.1042, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:41,159 - Log_epoch:106, log_loss:0.1031, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:41,162 - Log_epoch:107, log_loss:0.1020, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:41,165 - Log_epoch:108, log_loss:0.1009, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:41,167 - Log_epoch:109, log_loss:0.0998, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:41,170 - Log_epoch:110, log_loss:0.0988, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:41,173 - Log_epoch:111, log_loss:0.0977, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:41,176 - Log_epoch:112, log_loss:0.0967, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:41,178 - Log_epoch:113, log_loss:0.0957, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:41,181 - Log_epoch:114, log_loss:0.0948, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:41,184 - Log_epoch:115, log_loss:0.0938, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,187 - Log_epoch:116, log_loss:0.0929, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,189 - Log_epoch:117, log_loss:0.0919, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,192 - Log_epoch:118, log_loss:0.0910, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,194 - Log_epoch:119, log_loss:0.0901, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,197 - Log_epoch:120, log_loss:0.0893, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,199 - Log_epoch:121, log_loss:0.0884, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,202 - Log_epoch:122, log_loss:0.0875, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,204 - Log_epoch:123, log_loss:0.0867, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,206 - Log_epoch:124, log_loss:0.0859, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,209 - Log_epoch:125, log_loss:0.0851, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,212 - Log_epoch:126, log_loss:0.0843, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,214 - Log_epoch:127, log_loss:0.0835, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,217 - Log_epoch:128, log_loss:0.0827, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,219 - Log_epoch:129, log_loss:0.0820, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,222 - Log_epoch:130, log_loss:0.0812, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,224 - Log_epoch:131, log_loss:0.0805, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,226 - Log_epoch:132, log_loss:0.0797, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,229 - Log_epoch:133, log_loss:0.0790, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,231 - Log_epoch:134, log_loss:0.0783, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,234 - Log_epoch:135, log_loss:0.0776, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,236 - Log_epoch:136, log_loss:0.0770, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,238 - Log_epoch:137, log_loss:0.0763, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,241 - Log_epoch:138, log_loss:0.0756, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,243 - Log_epoch:139, log_loss:0.0750, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,246 - Log_epoch:140, log_loss:0.0743, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,248 - Log_epoch:141, log_loss:0.0737, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,251 - Log_epoch:142, log_loss:0.0731, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,253 - Log_epoch:143, log_loss:0.0725, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,256 - Log_epoch:144, log_loss:0.0719, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,258 - Log_epoch:145, log_loss:0.0713, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,261 - Log_epoch:146, log_loss:0.0707, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,263 - Log_epoch:147, log_loss:0.0701, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,265 - Log_epoch:148, log_loss:0.0695, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,268 - Log_epoch:149, log_loss:0.0690, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,270 - Log_epoch:150, log_loss:0.0684, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,273 - Log_epoch:151, log_loss:0.0679, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:41,275 - Log_epoch:152, log_loss:0.0673, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,278 - Log_epoch:153, log_loss:0.0668, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,281 - Log_epoch:154, log_loss:0.0663, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,283 - Log_epoch:155, log_loss:0.0658, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,286 - Log_epoch:156, log_loss:0.0652, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,289 - Log_epoch:157, log_loss:0.0647, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,292 - Log_epoch:158, log_loss:0.0643, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,295 - Log_epoch:159, log_loss:0.0638, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,297 - Log_epoch:160, log_loss:0.0633, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,300 - Log_epoch:161, log_loss:0.0628, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,302 - Log_epoch:162, log_loss:0.0623, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,305 - Log_epoch:163, log_loss:0.0619, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,308 - Log_epoch:164, log_loss:0.0614, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,310 - Log_epoch:165, log_loss:0.0610, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,313 - Log_epoch:166, log_loss:0.0605, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,315 - Log_epoch:167, log_loss:0.0601, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,318 - Log_epoch:168, log_loss:0.0596, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,321 - Log_epoch:169, log_loss:0.0592, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,324 - Log_epoch:170, log_loss:0.0588, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,326 - Log_epoch:171, log_loss:0.0584, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,329 - Log_epoch:172, log_loss:0.0580, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,332 - Log_epoch:173, log_loss:0.0576, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,334 - Log_epoch:174, log_loss:0.0572, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,337 - Log_epoch:175, log_loss:0.0568, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,340 - Log_epoch:176, log_loss:0.0564, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,342 - Log_epoch:177, log_loss:0.0560, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,345 - Log_epoch:178, log_loss:0.0556, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,348 - Log_epoch:179, log_loss:0.0552, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,351 - Log_epoch:180, log_loss:0.0549, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,353 - Log_epoch:181, log_loss:0.0545, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,356 - Log_epoch:182, log_loss:0.0541, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,359 - Log_epoch:183, log_loss:0.0538, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,362 - Log_epoch:184, log_loss:0.0534, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,365 - Log_epoch:185, log_loss:0.0531, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,367 - Log_epoch:186, log_loss:0.0527, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,370 - Log_epoch:187, log_loss:0.0524, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,373 - Log_epoch:188, log_loss:0.0521, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,376 - Log_epoch:189, log_loss:0.0517, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,379 - Log_epoch:190, log_loss:0.0514, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,381 - Log_epoch:191, log_loss:0.0511, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,384 - Log_epoch:192, log_loss:0.0507, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,387 - Log_epoch:193, log_loss:0.0504, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,390 - Log_epoch:194, log_loss:0.0501, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,393 - Log_epoch:195, log_loss:0.0498, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,396 - Log_epoch:196, log_loss:0.0495, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,398 - Log_epoch:197, log_loss:0.0492, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,401 - Log_epoch:198, log_loss:0.0489, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,404 - Log_epoch:199, log_loss:0.0486, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,405 - test_acc:0.821, log_step:63
+2023-03-21 22:27:41,405 - model runs 3 times, mean_acc=0.8166666666666668+-0.003299831645537225
+2023-03-21 22:27:41,405 - ================================Log runs 4=================================
+2023-03-21 22:27:41,424 - Log_epoch:000, log_loss:1.9388, train_acc:0.0857, val_acc:0.5960
+2023-03-21 22:27:41,427 - Log_epoch:001, log_loss:1.7781, train_acc:0.6500, val_acc:0.7320
+2023-03-21 22:27:41,430 - Log_epoch:002, log_loss:1.6271, train_acc:0.7929, val_acc:0.7560
+2023-03-21 22:27:41,432 - Log_epoch:003, log_loss:1.4866, train_acc:0.8071, val_acc:0.7500
+2023-03-21 22:27:41,435 - Log_epoch:004, log_loss:1.3570, train_acc:0.8071, val_acc:0.7560
+2023-03-21 22:27:41,438 - Log_epoch:005, log_loss:1.2388, train_acc:0.8214, val_acc:0.7580
+2023-03-21 22:27:41,440 - Log_epoch:006, log_loss:1.1321, train_acc:0.8286, val_acc:0.7580
+2023-03-21 22:27:41,442 - Log_epoch:007, log_loss:1.0367, train_acc:0.8286, val_acc:0.7560
+2023-03-21 22:27:41,445 - Log_epoch:008, log_loss:0.9521, train_acc:0.8357, val_acc:0.7560
+2023-03-21 22:27:41,447 - Log_epoch:009, log_loss:0.8776, train_acc:0.8357, val_acc:0.7580
+2023-03-21 22:27:41,449 - Log_epoch:010, log_loss:0.8124, train_acc:0.8357, val_acc:0.7560
+2023-03-21 22:27:41,451 - Log_epoch:011, log_loss:0.7555, train_acc:0.8500, val_acc:0.7560
+2023-03-21 22:27:41,454 - Log_epoch:012, log_loss:0.7059, train_acc:0.8500, val_acc:0.7640
+2023-03-21 22:27:41,457 - Log_epoch:013, log_loss:0.6625, train_acc:0.8571, val_acc:0.7660
+2023-03-21 22:27:41,459 - Log_epoch:014, log_loss:0.6246, train_acc:0.8643, val_acc:0.7700
+2023-03-21 22:27:41,461 - Log_epoch:015, log_loss:0.5913, train_acc:0.8571, val_acc:0.7700
+2023-03-21 22:27:41,464 - Log_epoch:016, log_loss:0.5619, train_acc:0.8571, val_acc:0.7700
+2023-03-21 22:27:41,466 - Log_epoch:017, log_loss:0.5357, train_acc:0.8571, val_acc:0.7680
+2023-03-21 22:27:41,468 - Log_epoch:018, log_loss:0.5123, train_acc:0.8571, val_acc:0.7700
+2023-03-21 22:27:41,470 - Log_epoch:019, log_loss:0.4913, train_acc:0.8714, val_acc:0.7700
+2023-03-21 22:27:41,473 - Log_epoch:020, log_loss:0.4723, train_acc:0.8714, val_acc:0.7720
+2023-03-21 22:27:41,476 - Log_epoch:021, log_loss:0.4549, train_acc:0.8714, val_acc:0.7740
+2023-03-21 22:27:41,478 - Log_epoch:022, log_loss:0.4389, train_acc:0.8714, val_acc:0.7740
+2023-03-21 22:27:41,480 - Log_epoch:023, log_loss:0.4242, train_acc:0.8786, val_acc:0.7760
+2023-03-21 22:27:41,483 - Log_epoch:024, log_loss:0.4106, train_acc:0.8929, val_acc:0.7780
+2023-03-21 22:27:41,485 - Log_epoch:025, log_loss:0.3979, train_acc:0.9071, val_acc:0.7780
+2023-03-21 22:27:41,488 - Log_epoch:026, log_loss:0.3859, train_acc:0.9143, val_acc:0.7800
+2023-03-21 22:27:41,490 - Log_epoch:027, log_loss:0.3747, train_acc:0.9143, val_acc:0.7800
+2023-03-21 22:27:41,492 - Log_epoch:028, log_loss:0.3641, train_acc:0.9214, val_acc:0.7800
+2023-03-21 22:27:41,494 - Log_epoch:029, log_loss:0.3541, train_acc:0.9286, val_acc:0.7800
+2023-03-21 22:27:41,496 - Log_epoch:030, log_loss:0.3447, train_acc:0.9286, val_acc:0.7800
+2023-03-21 22:27:41,498 - Log_epoch:031, log_loss:0.3357, train_acc:0.9286, val_acc:0.7800
+2023-03-21 22:27:41,501 - Log_epoch:032, log_loss:0.3271, train_acc:0.9286, val_acc:0.7800
+2023-03-21 22:27:41,503 - Log_epoch:033, log_loss:0.3189, train_acc:0.9286, val_acc:0.7800
+2023-03-21 22:27:41,505 - Log_epoch:034, log_loss:0.3111, train_acc:0.9429, val_acc:0.7800
+2023-03-21 22:27:41,507 - Log_epoch:035, log_loss:0.3037, train_acc:0.9429, val_acc:0.7800
+2023-03-21 22:27:41,510 - Log_epoch:036, log_loss:0.2966, train_acc:0.9429, val_acc:0.7800
+2023-03-21 22:27:41,512 - Log_epoch:037, log_loss:0.2898, train_acc:0.9500, val_acc:0.7800
+2023-03-21 22:27:41,514 - Log_epoch:038, log_loss:0.2833, train_acc:0.9500, val_acc:0.7800
+2023-03-21 22:27:41,517 - Log_epoch:039, log_loss:0.2771, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:41,519 - Log_epoch:040, log_loss:0.2711, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:41,521 - Log_epoch:041, log_loss:0.2653, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:41,523 - Log_epoch:042, log_loss:0.2598, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:41,526 - Log_epoch:043, log_loss:0.2545, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:41,528 - Log_epoch:044, log_loss:0.2494, train_acc:0.9500, val_acc:0.7860
+2023-03-21 22:27:41,531 - Log_epoch:045, log_loss:0.2445, train_acc:0.9571, val_acc:0.7880
+2023-03-21 22:27:41,533 - Log_epoch:046, log_loss:0.2397, train_acc:0.9571, val_acc:0.7900
+2023-03-21 22:27:41,536 - Log_epoch:047, log_loss:0.2351, train_acc:0.9571, val_acc:0.7920
+2023-03-21 22:27:41,538 - Log_epoch:048, log_loss:0.2307, train_acc:0.9571, val_acc:0.7920
+2023-03-21 22:27:41,540 - Log_epoch:049, log_loss:0.2264, train_acc:0.9571, val_acc:0.7920
+2023-03-21 22:27:41,542 - Log_epoch:050, log_loss:0.2222, train_acc:0.9571, val_acc:0.7920
+2023-03-21 22:27:41,545 - Log_epoch:051, log_loss:0.2182, train_acc:0.9571, val_acc:0.7920
+2023-03-21 22:27:41,547 - Log_epoch:052, log_loss:0.2143, train_acc:0.9571, val_acc:0.7900
+2023-03-21 22:27:41,549 - Log_epoch:053, log_loss:0.2105, train_acc:0.9571, val_acc:0.7900
+2023-03-21 22:27:41,551 - Log_epoch:054, log_loss:0.2069, train_acc:0.9571, val_acc:0.7900
+2023-03-21 22:27:41,554 - Log_epoch:055, log_loss:0.2033, train_acc:0.9571, val_acc:0.7900
+2023-03-21 22:27:41,556 - Log_epoch:056, log_loss:0.1999, train_acc:0.9643, val_acc:0.7900
+2023-03-21 22:27:41,558 - Log_epoch:057, log_loss:0.1965, train_acc:0.9643, val_acc:0.7900
+2023-03-21 22:27:41,560 - Log_epoch:058, log_loss:0.1933, train_acc:0.9643, val_acc:0.7860
+2023-03-21 22:27:41,562 - Log_epoch:059, log_loss:0.1901, train_acc:0.9714, val_acc:0.7860
+2023-03-21 22:27:41,565 - Log_epoch:060, log_loss:0.1870, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:41,567 - Log_epoch:061, log_loss:0.1840, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:41,569 - Log_epoch:062, log_loss:0.1811, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:41,572 - Log_epoch:063, log_loss:0.1782, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:41,574 - Log_epoch:064, log_loss:0.1755, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:41,576 - Log_epoch:065, log_loss:0.1728, train_acc:0.9786, val_acc:0.7880
+2023-03-21 22:27:41,579 - Log_epoch:066, log_loss:0.1701, train_acc:0.9786, val_acc:0.7880
+2023-03-21 22:27:41,581 - Log_epoch:067, log_loss:0.1676, train_acc:0.9786, val_acc:0.7880
+2023-03-21 22:27:41,583 - Log_epoch:068, log_loss:0.1651, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:41,585 - Log_epoch:069, log_loss:0.1626, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:41,588 - Log_epoch:070, log_loss:0.1603, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:41,590 - Log_epoch:071, log_loss:0.1579, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:41,592 - Log_epoch:072, log_loss:0.1557, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:41,594 - Log_epoch:073, log_loss:0.1535, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:41,597 - Log_epoch:074, log_loss:0.1513, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:41,599 - Log_epoch:075, log_loss:0.1492, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:41,601 - Log_epoch:076, log_loss:0.1472, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:41,603 - Log_epoch:077, log_loss:0.1452, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:41,606 - Log_epoch:078, log_loss:0.1432, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:41,608 - Log_epoch:079, log_loss:0.1413, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:41,609 - Log_epoch:080, log_loss:0.1394, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:41,611 - Log_epoch:081, log_loss:0.1376, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:41,613 - Log_epoch:082, log_loss:0.1358, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:41,615 - Log_epoch:083, log_loss:0.1341, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:41,617 - Log_epoch:084, log_loss:0.1324, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:41,620 - Log_epoch:085, log_loss:0.1307, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:41,622 - Log_epoch:086, log_loss:0.1290, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:41,624 - Log_epoch:087, log_loss:0.1274, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:41,626 - Log_epoch:088, log_loss:0.1259, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:41,628 - Log_epoch:089, log_loss:0.1243, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:41,630 - Log_epoch:090, log_loss:0.1228, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:41,632 - Log_epoch:091, log_loss:0.1213, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:41,635 - Log_epoch:092, log_loss:0.1199, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:41,637 - Log_epoch:093, log_loss:0.1185, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:41,639 - Log_epoch:094, log_loss:0.1171, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:41,641 - Log_epoch:095, log_loss:0.1157, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:41,644 - Log_epoch:096, log_loss:0.1144, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:41,646 - Log_epoch:097, log_loss:0.1131, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:41,649 - Log_epoch:098, log_loss:0.1118, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:41,651 - Log_epoch:099, log_loss:0.1105, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:41,654 - Log_epoch:100, log_loss:0.1093, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:41,656 - Log_epoch:101, log_loss:0.1081, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:41,658 - Log_epoch:102, log_loss:0.1069, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:41,661 - Log_epoch:103, log_loss:0.1057, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:41,663 - Log_epoch:104, log_loss:0.1046, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:41,666 - Log_epoch:105, log_loss:0.1034, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:41,668 - Log_epoch:106, log_loss:0.1023, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:41,671 - Log_epoch:107, log_loss:0.1013, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:41,674 - Log_epoch:108, log_loss:0.1002, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:41,676 - Log_epoch:109, log_loss:0.0991, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:41,679 - Log_epoch:110, log_loss:0.0981, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:41,682 - Log_epoch:111, log_loss:0.0971, train_acc:0.9929, val_acc:0.7760
+2023-03-21 22:27:41,685 - Log_epoch:112, log_loss:0.0961, train_acc:0.9929, val_acc:0.7740
+2023-03-21 22:27:41,688 - Log_epoch:113, log_loss:0.0951, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:41,691 - Log_epoch:114, log_loss:0.0942, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:41,693 - Log_epoch:115, log_loss:0.0932, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:41,696 - Log_epoch:116, log_loss:0.0923, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:41,699 - Log_epoch:117, log_loss:0.0914, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:41,702 - Log_epoch:118, log_loss:0.0905, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:41,704 - Log_epoch:119, log_loss:0.0896, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:41,707 - Log_epoch:120, log_loss:0.0887, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:41,710 - Log_epoch:121, log_loss:0.0879, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:41,712 - Log_epoch:122, log_loss:0.0871, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:41,715 - Log_epoch:123, log_loss:0.0862, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:41,718 - Log_epoch:124, log_loss:0.0854, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:41,720 - Log_epoch:125, log_loss:0.0846, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,722 - Log_epoch:126, log_loss:0.0838, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,725 - Log_epoch:127, log_loss:0.0831, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,727 - Log_epoch:128, log_loss:0.0823, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,730 - Log_epoch:129, log_loss:0.0815, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,733 - Log_epoch:130, log_loss:0.0808, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,735 - Log_epoch:131, log_loss:0.0801, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,737 - Log_epoch:132, log_loss:0.0794, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,740 - Log_epoch:133, log_loss:0.0787, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,742 - Log_epoch:134, log_loss:0.0780, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,745 - Log_epoch:135, log_loss:0.0773, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,747 - Log_epoch:136, log_loss:0.0766, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,750 - Log_epoch:137, log_loss:0.0760, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,752 - Log_epoch:138, log_loss:0.0753, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,755 - Log_epoch:139, log_loss:0.0747, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,757 - Log_epoch:140, log_loss:0.0740, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,760 - Log_epoch:141, log_loss:0.0734, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,762 - Log_epoch:142, log_loss:0.0728, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,765 - Log_epoch:143, log_loss:0.0722, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,767 - Log_epoch:144, log_loss:0.0716, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,770 - Log_epoch:145, log_loss:0.0710, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,772 - Log_epoch:146, log_loss:0.0704, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,775 - Log_epoch:147, log_loss:0.0699, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,777 - Log_epoch:148, log_loss:0.0693, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,780 - Log_epoch:149, log_loss:0.0687, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,783 - Log_epoch:150, log_loss:0.0682, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:41,785 - Log_epoch:151, log_loss:0.0676, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,787 - Log_epoch:152, log_loss:0.0671, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,790 - Log_epoch:153, log_loss:0.0666, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,792 - Log_epoch:154, log_loss:0.0661, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,795 - Log_epoch:155, log_loss:0.0656, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,797 - Log_epoch:156, log_loss:0.0651, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,800 - Log_epoch:157, log_loss:0.0646, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,802 - Log_epoch:158, log_loss:0.0641, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,805 - Log_epoch:159, log_loss:0.0636, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,807 - Log_epoch:160, log_loss:0.0631, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,810 - Log_epoch:161, log_loss:0.0626, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,812 - Log_epoch:162, log_loss:0.0622, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,815 - Log_epoch:163, log_loss:0.0617, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,817 - Log_epoch:164, log_loss:0.0613, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,820 - Log_epoch:165, log_loss:0.0608, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,822 - Log_epoch:166, log_loss:0.0604, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,824 - Log_epoch:167, log_loss:0.0600, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,827 - Log_epoch:168, log_loss:0.0595, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,829 - Log_epoch:169, log_loss:0.0591, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:41,832 - Log_epoch:170, log_loss:0.0587, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,834 - Log_epoch:171, log_loss:0.0583, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,837 - Log_epoch:172, log_loss:0.0579, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,839 - Log_epoch:173, log_loss:0.0575, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,842 - Log_epoch:174, log_loss:0.0571, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,845 - Log_epoch:175, log_loss:0.0567, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,848 - Log_epoch:176, log_loss:0.0563, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,851 - Log_epoch:177, log_loss:0.0559, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,854 - Log_epoch:178, log_loss:0.0555, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,857 - Log_epoch:179, log_loss:0.0552, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,860 - Log_epoch:180, log_loss:0.0548, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,863 - Log_epoch:181, log_loss:0.0544, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:41,866 - Log_epoch:182, log_loss:0.0541, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,869 - Log_epoch:183, log_loss:0.0537, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,872 - Log_epoch:184, log_loss:0.0534, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,875 - Log_epoch:185, log_loss:0.0530, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,877 - Log_epoch:186, log_loss:0.0527, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,880 - Log_epoch:187, log_loss:0.0523, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,883 - Log_epoch:188, log_loss:0.0520, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,885 - Log_epoch:189, log_loss:0.0517, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,888 - Log_epoch:190, log_loss:0.0514, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,891 - Log_epoch:191, log_loss:0.0510, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,894 - Log_epoch:192, log_loss:0.0507, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,897 - Log_epoch:193, log_loss:0.0504, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,899 - Log_epoch:194, log_loss:0.0501, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,902 - Log_epoch:195, log_loss:0.0498, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,905 - Log_epoch:196, log_loss:0.0495, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,907 - Log_epoch:197, log_loss:0.0492, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,910 - Log_epoch:198, log_loss:0.0489, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,913 - Log_epoch:199, log_loss:0.0486, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:41,914 - test_acc:0.815, log_step:47
+2023-03-21 22:27:41,914 - model runs 4 times, mean_acc=0.81625+-0.002947456530637902
+2023-03-21 22:27:41,914 - ================================Log runs 5=================================
+2023-03-21 22:27:41,937 - Log_epoch:000, log_loss:1.9559, train_acc:0.1571, val_acc:0.4480
+2023-03-21 22:27:41,940 - Log_epoch:001, log_loss:1.7951, train_acc:0.5143, val_acc:0.7120
+2023-03-21 22:27:41,942 - Log_epoch:002, log_loss:1.6435, train_acc:0.7929, val_acc:0.7420
+2023-03-21 22:27:41,945 - Log_epoch:003, log_loss:1.5017, train_acc:0.8286, val_acc:0.7520
+2023-03-21 22:27:41,947 - Log_epoch:004, log_loss:1.3706, train_acc:0.8571, val_acc:0.7500
+2023-03-21 22:27:41,950 - Log_epoch:005, log_loss:1.2507, train_acc:0.8714, val_acc:0.7560
+2023-03-21 22:27:41,953 - Log_epoch:006, log_loss:1.1422, train_acc:0.8643, val_acc:0.7600
+2023-03-21 22:27:41,955 - Log_epoch:007, log_loss:1.0451, train_acc:0.8643, val_acc:0.7600
+2023-03-21 22:27:41,957 - Log_epoch:008, log_loss:0.9590, train_acc:0.8643, val_acc:0.7580
+2023-03-21 22:27:41,960 - Log_epoch:009, log_loss:0.8832, train_acc:0.8643, val_acc:0.7620
+2023-03-21 22:27:41,962 - Log_epoch:010, log_loss:0.8170, train_acc:0.8714, val_acc:0.7620
+2023-03-21 22:27:41,964 - Log_epoch:011, log_loss:0.7592, train_acc:0.8714, val_acc:0.7600
+2023-03-21 22:27:41,967 - Log_epoch:012, log_loss:0.7090, train_acc:0.8714, val_acc:0.7600
+2023-03-21 22:27:41,969 - Log_epoch:013, log_loss:0.6652, train_acc:0.8714, val_acc:0.7600
+2023-03-21 22:27:41,971 - Log_epoch:014, log_loss:0.6271, train_acc:0.8714, val_acc:0.7620
+2023-03-21 22:27:41,974 - Log_epoch:015, log_loss:0.5936, train_acc:0.8714, val_acc:0.7660
+2023-03-21 22:27:41,976 - Log_epoch:016, log_loss:0.5641, train_acc:0.8714, val_acc:0.7700
+2023-03-21 22:27:41,978 - Log_epoch:017, log_loss:0.5380, train_acc:0.8714, val_acc:0.7680
+2023-03-21 22:27:41,981 - Log_epoch:018, log_loss:0.5147, train_acc:0.8643, val_acc:0.7660
+2023-03-21 22:27:41,983 - Log_epoch:019, log_loss:0.4937, train_acc:0.8643, val_acc:0.7700
+2023-03-21 22:27:41,986 - Log_epoch:020, log_loss:0.4747, train_acc:0.8643, val_acc:0.7720
+2023-03-21 22:27:41,988 - Log_epoch:021, log_loss:0.4574, train_acc:0.8643, val_acc:0.7760
+2023-03-21 22:27:41,990 - Log_epoch:022, log_loss:0.4415, train_acc:0.8714, val_acc:0.7740
+2023-03-21 22:27:41,993 - Log_epoch:023, log_loss:0.4268, train_acc:0.8714, val_acc:0.7720
+2023-03-21 22:27:41,995 - Log_epoch:024, log_loss:0.4132, train_acc:0.8714, val_acc:0.7700
+2023-03-21 22:27:41,997 - Log_epoch:025, log_loss:0.4005, train_acc:0.8714, val_acc:0.7700
+2023-03-21 22:27:42,000 - Log_epoch:026, log_loss:0.3885, train_acc:0.8786, val_acc:0.7740
+2023-03-21 22:27:42,002 - Log_epoch:027, log_loss:0.3773, train_acc:0.8929, val_acc:0.7780
+2023-03-21 22:27:42,004 - Log_epoch:028, log_loss:0.3667, train_acc:0.9071, val_acc:0.7780
+2023-03-21 22:27:42,007 - Log_epoch:029, log_loss:0.3566, train_acc:0.9214, val_acc:0.7800
+2023-03-21 22:27:42,010 - Log_epoch:030, log_loss:0.3471, train_acc:0.9214, val_acc:0.7820
+2023-03-21 22:27:42,012 - Log_epoch:031, log_loss:0.3380, train_acc:0.9286, val_acc:0.7840
+2023-03-21 22:27:42,014 - Log_epoch:032, log_loss:0.3293, train_acc:0.9357, val_acc:0.7840
+2023-03-21 22:27:42,017 - Log_epoch:033, log_loss:0.3211, train_acc:0.9429, val_acc:0.7820
+2023-03-21 22:27:42,019 - Log_epoch:034, log_loss:0.3132, train_acc:0.9429, val_acc:0.7780
+2023-03-21 22:27:42,021 - Log_epoch:035, log_loss:0.3057, train_acc:0.9500, val_acc:0.7780
+2023-03-21 22:27:42,023 - Log_epoch:036, log_loss:0.2985, train_acc:0.9500, val_acc:0.7780
+2023-03-21 22:27:42,026 - Log_epoch:037, log_loss:0.2916, train_acc:0.9500, val_acc:0.7780
+2023-03-21 22:27:42,028 - Log_epoch:038, log_loss:0.2851, train_acc:0.9500, val_acc:0.7800
+2023-03-21 22:27:42,030 - Log_epoch:039, log_loss:0.2788, train_acc:0.9500, val_acc:0.7780
+2023-03-21 22:27:42,032 - Log_epoch:040, log_loss:0.2727, train_acc:0.9500, val_acc:0.7780
+2023-03-21 22:27:42,035 - Log_epoch:041, log_loss:0.2669, train_acc:0.9500, val_acc:0.7780
+2023-03-21 22:27:42,037 - Log_epoch:042, log_loss:0.2613, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:42,039 - Log_epoch:043, log_loss:0.2560, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:42,041 - Log_epoch:044, log_loss:0.2508, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:42,044 - Log_epoch:045, log_loss:0.2458, train_acc:0.9500, val_acc:0.7840
+2023-03-21 22:27:42,046 - Log_epoch:046, log_loss:0.2410, train_acc:0.9500, val_acc:0.7840
+2023-03-21 22:27:42,048 - Log_epoch:047, log_loss:0.2364, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:42,051 - Log_epoch:048, log_loss:0.2319, train_acc:0.9571, val_acc:0.7880
+2023-03-21 22:27:42,053 - Log_epoch:049, log_loss:0.2276, train_acc:0.9571, val_acc:0.7880
+2023-03-21 22:27:42,056 - Log_epoch:050, log_loss:0.2234, train_acc:0.9571, val_acc:0.7900
+2023-03-21 22:27:42,058 - Log_epoch:051, log_loss:0.2194, train_acc:0.9571, val_acc:0.7900
+2023-03-21 22:27:42,060 - Log_epoch:052, log_loss:0.2154, train_acc:0.9571, val_acc:0.7900
+2023-03-21 22:27:42,062 - Log_epoch:053, log_loss:0.2116, train_acc:0.9571, val_acc:0.7900
+2023-03-21 22:27:42,064 - Log_epoch:054, log_loss:0.2079, train_acc:0.9571, val_acc:0.7900
+2023-03-21 22:27:42,067 - Log_epoch:055, log_loss:0.2043, train_acc:0.9571, val_acc:0.7920
+2023-03-21 22:27:42,070 - Log_epoch:056, log_loss:0.2008, train_acc:0.9643, val_acc:0.7940
+2023-03-21 22:27:42,072 - Log_epoch:057, log_loss:0.1974, train_acc:0.9643, val_acc:0.7940
+2023-03-21 22:27:42,074 - Log_epoch:058, log_loss:0.1941, train_acc:0.9643, val_acc:0.7900
+2023-03-21 22:27:42,076 - Log_epoch:059, log_loss:0.1909, train_acc:0.9643, val_acc:0.7880
+2023-03-21 22:27:42,078 - Log_epoch:060, log_loss:0.1878, train_acc:0.9714, val_acc:0.7880
+2023-03-21 22:27:42,081 - Log_epoch:061, log_loss:0.1848, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:42,083 - Log_epoch:062, log_loss:0.1818, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:42,085 - Log_epoch:063, log_loss:0.1790, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:42,088 - Log_epoch:064, log_loss:0.1762, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:42,090 - Log_epoch:065, log_loss:0.1734, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:42,092 - Log_epoch:066, log_loss:0.1708, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:42,094 - Log_epoch:067, log_loss:0.1682, train_acc:0.9786, val_acc:0.7880
+2023-03-21 22:27:42,097 - Log_epoch:068, log_loss:0.1657, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:42,099 - Log_epoch:069, log_loss:0.1632, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:42,101 - Log_epoch:070, log_loss:0.1608, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:42,103 - Log_epoch:071, log_loss:0.1585, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:42,105 - Log_epoch:072, log_loss:0.1562, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:42,108 - Log_epoch:073, log_loss:0.1540, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:42,110 - Log_epoch:074, log_loss:0.1518, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:42,112 - Log_epoch:075, log_loss:0.1497, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:42,114 - Log_epoch:076, log_loss:0.1476, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:42,116 - Log_epoch:077, log_loss:0.1456, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:42,118 - Log_epoch:078, log_loss:0.1437, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:42,120 - Log_epoch:079, log_loss:0.1417, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:42,122 - Log_epoch:080, log_loss:0.1398, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:42,124 - Log_epoch:081, log_loss:0.1380, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:42,126 - Log_epoch:082, log_loss:0.1362, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:42,128 - Log_epoch:083, log_loss:0.1344, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:42,130 - Log_epoch:084, log_loss:0.1327, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:42,132 - Log_epoch:085, log_loss:0.1310, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:42,134 - Log_epoch:086, log_loss:0.1294, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:42,136 - Log_epoch:087, log_loss:0.1278, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:42,138 - Log_epoch:088, log_loss:0.1262, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:42,141 - Log_epoch:089, log_loss:0.1246, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:42,143 - Log_epoch:090, log_loss:0.1231, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:42,145 - Log_epoch:091, log_loss:0.1216, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:42,147 - Log_epoch:092, log_loss:0.1202, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:42,150 - Log_epoch:093, log_loss:0.1187, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:42,152 - Log_epoch:094, log_loss:0.1173, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:42,154 - Log_epoch:095, log_loss:0.1160, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:42,157 - Log_epoch:096, log_loss:0.1146, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:42,159 - Log_epoch:097, log_loss:0.1133, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:42,162 - Log_epoch:098, log_loss:0.1120, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:42,165 - Log_epoch:099, log_loss:0.1107, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:42,168 - Log_epoch:100, log_loss:0.1095, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:42,171 - Log_epoch:101, log_loss:0.1083, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:42,173 - Log_epoch:102, log_loss:0.1071, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:42,176 - Log_epoch:103, log_loss:0.1059, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:42,179 - Log_epoch:104, log_loss:0.1047, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:42,182 - Log_epoch:105, log_loss:0.1036, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:42,185 - Log_epoch:106, log_loss:0.1025, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:42,188 - Log_epoch:107, log_loss:0.1014, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:42,191 - Log_epoch:108, log_loss:0.1003, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:42,193 - Log_epoch:109, log_loss:0.0993, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:42,196 - Log_epoch:110, log_loss:0.0982, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:42,199 - Log_epoch:111, log_loss:0.0972, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:42,202 - Log_epoch:112, log_loss:0.0962, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:42,204 - Log_epoch:113, log_loss:0.0952, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:42,207 - Log_epoch:114, log_loss:0.0943, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:42,210 - Log_epoch:115, log_loss:0.0933, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:42,212 - Log_epoch:116, log_loss:0.0924, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,215 - Log_epoch:117, log_loss:0.0915, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,218 - Log_epoch:118, log_loss:0.0906, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,221 - Log_epoch:119, log_loss:0.0897, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,224 - Log_epoch:120, log_loss:0.0888, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,226 - Log_epoch:121, log_loss:0.0880, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,229 - Log_epoch:122, log_loss:0.0871, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,234 - Log_epoch:123, log_loss:0.0863, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,236 - Log_epoch:124, log_loss:0.0855, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,239 - Log_epoch:125, log_loss:0.0847, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,242 - Log_epoch:126, log_loss:0.0839, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,244 - Log_epoch:127, log_loss:0.0831, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,246 - Log_epoch:128, log_loss:0.0823, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,249 - Log_epoch:129, log_loss:0.0816, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,251 - Log_epoch:130, log_loss:0.0809, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,254 - Log_epoch:131, log_loss:0.0801, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,256 - Log_epoch:132, log_loss:0.0794, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,259 - Log_epoch:133, log_loss:0.0787, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,261 - Log_epoch:134, log_loss:0.0780, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,264 - Log_epoch:135, log_loss:0.0773, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,266 - Log_epoch:136, log_loss:0.0766, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,268 - Log_epoch:137, log_loss:0.0760, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,272 - Log_epoch:138, log_loss:0.0753, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,277 - Log_epoch:139, log_loss:0.0747, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,281 - Log_epoch:140, log_loss:0.0740, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:42,285 - Log_epoch:141, log_loss:0.0734, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:42,289 - Log_epoch:142, log_loss:0.0728, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:42,293 - Log_epoch:143, log_loss:0.0722, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:42,297 - Log_epoch:144, log_loss:0.0716, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:42,300 - Log_epoch:145, log_loss:0.0710, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:42,304 - Log_epoch:146, log_loss:0.0704, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:42,307 - Log_epoch:147, log_loss:0.0699, train_acc:0.9929, val_acc:0.7640
+2023-03-21 22:27:42,310 - Log_epoch:148, log_loss:0.0693, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,313 - Log_epoch:149, log_loss:0.0687, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,316 - Log_epoch:150, log_loss:0.0682, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,319 - Log_epoch:151, log_loss:0.0676, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,322 - Log_epoch:152, log_loss:0.0671, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,325 - Log_epoch:153, log_loss:0.0666, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,328 - Log_epoch:154, log_loss:0.0661, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,331 - Log_epoch:155, log_loss:0.0656, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,334 - Log_epoch:156, log_loss:0.0650, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,336 - Log_epoch:157, log_loss:0.0646, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,339 - Log_epoch:158, log_loss:0.0641, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,342 - Log_epoch:159, log_loss:0.0636, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,345 - Log_epoch:160, log_loss:0.0631, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,347 - Log_epoch:161, log_loss:0.0626, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,350 - Log_epoch:162, log_loss:0.0622, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,353 - Log_epoch:163, log_loss:0.0617, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:42,355 - Log_epoch:164, log_loss:0.0613, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,358 - Log_epoch:165, log_loss:0.0608, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,360 - Log_epoch:166, log_loss:0.0604, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,363 - Log_epoch:167, log_loss:0.0599, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,365 - Log_epoch:168, log_loss:0.0595, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,368 - Log_epoch:169, log_loss:0.0591, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,370 - Log_epoch:170, log_loss:0.0587, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,373 - Log_epoch:171, log_loss:0.0582, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,376 - Log_epoch:172, log_loss:0.0578, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,379 - Log_epoch:173, log_loss:0.0574, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,381 - Log_epoch:174, log_loss:0.0570, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,384 - Log_epoch:175, log_loss:0.0566, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,387 - Log_epoch:176, log_loss:0.0563, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,390 - Log_epoch:177, log_loss:0.0559, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:42,393 - Log_epoch:178, log_loss:0.0555, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:42,395 - Log_epoch:179, log_loss:0.0551, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:42,398 - Log_epoch:180, log_loss:0.0548, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:42,401 - Log_epoch:181, log_loss:0.0544, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:42,404 - Log_epoch:182, log_loss:0.0540, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:42,409 - Log_epoch:183, log_loss:0.0537, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:42,412 - Log_epoch:184, log_loss:0.0533, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:42,414 - Log_epoch:185, log_loss:0.0530, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:42,417 - Log_epoch:186, log_loss:0.0526, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:42,419 - Log_epoch:187, log_loss:0.0523, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:42,422 - Log_epoch:188, log_loss:0.0520, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:42,425 - Log_epoch:189, log_loss:0.0516, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:42,427 - Log_epoch:190, log_loss:0.0513, train_acc:1.0000, val_acc:0.7620
+2023-03-21 22:27:42,430 - Log_epoch:191, log_loss:0.0510, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,432 - Log_epoch:192, log_loss:0.0507, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,435 - Log_epoch:193, log_loss:0.0504, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,437 - Log_epoch:194, log_loss:0.0500, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,440 - Log_epoch:195, log_loss:0.0497, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,442 - Log_epoch:196, log_loss:0.0494, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,444 - Log_epoch:197, log_loss:0.0491, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,447 - Log_epoch:198, log_loss:0.0488, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,449 - Log_epoch:199, log_loss:0.0485, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,451 - test_acc:0.82, log_step:56
+2023-03-21 22:27:42,451 - model runs 5 times, mean_acc=0.817+-0.003033150177620623
+2023-03-21 22:27:42,451 - ================================Log runs 6=================================
+2023-03-21 22:27:42,473 - Log_epoch:000, log_loss:1.9528, train_acc:0.0857, val_acc:0.4680
+2023-03-21 22:27:42,476 - Log_epoch:001, log_loss:1.7920, train_acc:0.6214, val_acc:0.7000
+2023-03-21 22:27:42,479 - Log_epoch:002, log_loss:1.6406, train_acc:0.7857, val_acc:0.7240
+2023-03-21 22:27:42,481 - Log_epoch:003, log_loss:1.4992, train_acc:0.8000, val_acc:0.7240
+2023-03-21 22:27:42,484 - Log_epoch:004, log_loss:1.3686, train_acc:0.8143, val_acc:0.7240
+2023-03-21 22:27:42,487 - Log_epoch:005, log_loss:1.2493, train_acc:0.8286, val_acc:0.7280
+2023-03-21 22:27:42,489 - Log_epoch:006, log_loss:1.1416, train_acc:0.8357, val_acc:0.7280
+2023-03-21 22:27:42,492 - Log_epoch:007, log_loss:1.0453, train_acc:0.8429, val_acc:0.7340
+2023-03-21 22:27:42,495 - Log_epoch:008, log_loss:0.9601, train_acc:0.8571, val_acc:0.7440
+2023-03-21 22:27:42,497 - Log_epoch:009, log_loss:0.8852, train_acc:0.8643, val_acc:0.7460
+2023-03-21 22:27:42,499 - Log_epoch:010, log_loss:0.8197, train_acc:0.8643, val_acc:0.7460
+2023-03-21 22:27:42,502 - Log_epoch:011, log_loss:0.7626, train_acc:0.8643, val_acc:0.7520
+2023-03-21 22:27:42,505 - Log_epoch:012, log_loss:0.7128, train_acc:0.8643, val_acc:0.7540
+2023-03-21 22:27:42,507 - Log_epoch:013, log_loss:0.6693, train_acc:0.8643, val_acc:0.7540
+2023-03-21 22:27:42,509 - Log_epoch:014, log_loss:0.6313, train_acc:0.8714, val_acc:0.7580
+2023-03-21 22:27:42,512 - Log_epoch:015, log_loss:0.5978, train_acc:0.8643, val_acc:0.7640
+2023-03-21 22:27:42,514 - Log_epoch:016, log_loss:0.5682, train_acc:0.8571, val_acc:0.7660
+2023-03-21 22:27:42,517 - Log_epoch:017, log_loss:0.5419, train_acc:0.8571, val_acc:0.7660
+2023-03-21 22:27:42,519 - Log_epoch:018, log_loss:0.5184, train_acc:0.8643, val_acc:0.7680
+2023-03-21 22:27:42,521 - Log_epoch:019, log_loss:0.4972, train_acc:0.8643, val_acc:0.7660
+2023-03-21 22:27:42,524 - Log_epoch:020, log_loss:0.4780, train_acc:0.8643, val_acc:0.7640
+2023-03-21 22:27:42,526 - Log_epoch:021, log_loss:0.4605, train_acc:0.8643, val_acc:0.7660
+2023-03-21 22:27:42,528 - Log_epoch:022, log_loss:0.4444, train_acc:0.8643, val_acc:0.7680
+2023-03-21 22:27:42,533 - Log_epoch:023, log_loss:0.4296, train_acc:0.8643, val_acc:0.7700
+2023-03-21 22:27:42,535 - Log_epoch:024, log_loss:0.4158, train_acc:0.8714, val_acc:0.7700
+2023-03-21 22:27:42,538 - Log_epoch:025, log_loss:0.4030, train_acc:0.8857, val_acc:0.7720
+2023-03-21 22:27:42,540 - Log_epoch:026, log_loss:0.3909, train_acc:0.8929, val_acc:0.7780
+2023-03-21 22:27:42,542 - Log_epoch:027, log_loss:0.3796, train_acc:0.9000, val_acc:0.7760
+2023-03-21 22:27:42,544 - Log_epoch:028, log_loss:0.3689, train_acc:0.9143, val_acc:0.7780
+2023-03-21 22:27:42,547 - Log_epoch:029, log_loss:0.3588, train_acc:0.9143, val_acc:0.7800
+2023-03-21 22:27:42,549 - Log_epoch:030, log_loss:0.3492, train_acc:0.9286, val_acc:0.7800
+2023-03-21 22:27:42,551 - Log_epoch:031, log_loss:0.3401, train_acc:0.9357, val_acc:0.7800
+2023-03-21 22:27:42,553 - Log_epoch:032, log_loss:0.3315, train_acc:0.9357, val_acc:0.7800
+2023-03-21 22:27:42,556 - Log_epoch:033, log_loss:0.3232, train_acc:0.9357, val_acc:0.7800
+2023-03-21 22:27:42,558 - Log_epoch:034, log_loss:0.3153, train_acc:0.9357, val_acc:0.7820
+2023-03-21 22:27:42,561 - Log_epoch:035, log_loss:0.3077, train_acc:0.9429, val_acc:0.7820
+2023-03-21 22:27:42,563 - Log_epoch:036, log_loss:0.3005, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:42,566 - Log_epoch:037, log_loss:0.2936, train_acc:0.9500, val_acc:0.7860
+2023-03-21 22:27:42,568 - Log_epoch:038, log_loss:0.2870, train_acc:0.9500, val_acc:0.7840
+2023-03-21 22:27:42,570 - Log_epoch:039, log_loss:0.2807, train_acc:0.9500, val_acc:0.7840
+2023-03-21 22:27:42,573 - Log_epoch:040, log_loss:0.2746, train_acc:0.9500, val_acc:0.7840
+2023-03-21 22:27:42,575 - Log_epoch:041, log_loss:0.2688, train_acc:0.9500, val_acc:0.7840
+2023-03-21 22:27:42,577 - Log_epoch:042, log_loss:0.2632, train_acc:0.9500, val_acc:0.7840
+2023-03-21 22:27:42,580 - Log_epoch:043, log_loss:0.2578, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:42,582 - Log_epoch:044, log_loss:0.2526, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:42,584 - Log_epoch:045, log_loss:0.2476, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:42,586 - Log_epoch:046, log_loss:0.2428, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:42,589 - Log_epoch:047, log_loss:0.2381, train_acc:0.9571, val_acc:0.7900
+2023-03-21 22:27:42,591 - Log_epoch:048, log_loss:0.2336, train_acc:0.9571, val_acc:0.7900
+2023-03-21 22:27:42,594 - Log_epoch:049, log_loss:0.2292, train_acc:0.9571, val_acc:0.7900
+2023-03-21 22:27:42,596 - Log_epoch:050, log_loss:0.2250, train_acc:0.9571, val_acc:0.7880
+2023-03-21 22:27:42,599 - Log_epoch:051, log_loss:0.2209, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:42,601 - Log_epoch:052, log_loss:0.2170, train_acc:0.9571, val_acc:0.7880
+2023-03-21 22:27:42,604 - Log_epoch:053, log_loss:0.2131, train_acc:0.9571, val_acc:0.7880
+2023-03-21 22:27:42,606 - Log_epoch:054, log_loss:0.2094, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:42,608 - Log_epoch:055, log_loss:0.2058, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:42,611 - Log_epoch:056, log_loss:0.2023, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:42,613 - Log_epoch:057, log_loss:0.1989, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:42,616 - Log_epoch:058, log_loss:0.1956, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:42,618 - Log_epoch:059, log_loss:0.1923, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:42,620 - Log_epoch:060, log_loss:0.1892, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:42,623 - Log_epoch:061, log_loss:0.1861, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:42,625 - Log_epoch:062, log_loss:0.1832, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:42,627 - Log_epoch:063, log_loss:0.1803, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:42,630 - Log_epoch:064, log_loss:0.1774, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:42,632 - Log_epoch:065, log_loss:0.1747, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:42,635 - Log_epoch:066, log_loss:0.1720, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:42,637 - Log_epoch:067, log_loss:0.1694, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:42,640 - Log_epoch:068, log_loss:0.1669, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:42,643 - Log_epoch:069, log_loss:0.1644, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:42,645 - Log_epoch:070, log_loss:0.1620, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:42,647 - Log_epoch:071, log_loss:0.1596, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:42,650 - Log_epoch:072, log_loss:0.1573, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:42,652 - Log_epoch:073, log_loss:0.1551, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:42,654 - Log_epoch:074, log_loss:0.1529, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:42,656 - Log_epoch:075, log_loss:0.1508, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:42,658 - Log_epoch:076, log_loss:0.1487, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:42,660 - Log_epoch:077, log_loss:0.1466, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:42,662 - Log_epoch:078, log_loss:0.1447, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:42,664 - Log_epoch:079, log_loss:0.1427, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:42,666 - Log_epoch:080, log_loss:0.1408, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:42,669 - Log_epoch:081, log_loss:0.1390, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:42,671 - Log_epoch:082, log_loss:0.1371, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:42,673 - Log_epoch:083, log_loss:0.1354, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:42,675 - Log_epoch:084, log_loss:0.1336, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:42,678 - Log_epoch:085, log_loss:0.1319, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:42,680 - Log_epoch:086, log_loss:0.1303, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:42,682 - Log_epoch:087, log_loss:0.1286, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:42,684 - Log_epoch:088, log_loss:0.1270, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:42,687 - Log_epoch:089, log_loss:0.1255, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:42,689 - Log_epoch:090, log_loss:0.1239, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:42,692 - Log_epoch:091, log_loss:0.1224, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:42,694 - Log_epoch:092, log_loss:0.1210, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:42,697 - Log_epoch:093, log_loss:0.1195, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:42,699 - Log_epoch:094, log_loss:0.1181, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:42,701 - Log_epoch:095, log_loss:0.1167, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:42,704 - Log_epoch:096, log_loss:0.1154, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:42,706 - Log_epoch:097, log_loss:0.1141, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:42,708 - Log_epoch:098, log_loss:0.1128, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:42,711 - Log_epoch:099, log_loss:0.1115, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:42,713 - Log_epoch:100, log_loss:0.1102, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:42,716 - Log_epoch:101, log_loss:0.1090, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:42,718 - Log_epoch:102, log_loss:0.1078, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:42,721 - Log_epoch:103, log_loss:0.1066, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:42,724 - Log_epoch:104, log_loss:0.1054, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:42,727 - Log_epoch:105, log_loss:0.1043, train_acc:0.9857, val_acc:0.7740
+2023-03-21 22:27:42,730 - Log_epoch:106, log_loss:0.1032, train_acc:0.9857, val_acc:0.7740
+2023-03-21 22:27:42,733 - Log_epoch:107, log_loss:0.1021, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:42,736 - Log_epoch:108, log_loss:0.1010, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:42,738 - Log_epoch:109, log_loss:0.0999, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:42,741 - Log_epoch:110, log_loss:0.0989, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:42,744 - Log_epoch:111, log_loss:0.0979, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:42,746 - Log_epoch:112, log_loss:0.0968, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:42,749 - Log_epoch:113, log_loss:0.0959, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:42,752 - Log_epoch:114, log_loss:0.0949, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:42,754 - Log_epoch:115, log_loss:0.0939, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,757 - Log_epoch:116, log_loss:0.0930, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,760 - Log_epoch:117, log_loss:0.0921, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,766 - Log_epoch:118, log_loss:0.0912, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,769 - Log_epoch:119, log_loss:0.0903, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,771 - Log_epoch:120, log_loss:0.0894, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,774 - Log_epoch:121, log_loss:0.0885, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,776 - Log_epoch:122, log_loss:0.0877, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,778 - Log_epoch:123, log_loss:0.0868, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,781 - Log_epoch:124, log_loss:0.0860, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,783 - Log_epoch:125, log_loss:0.0852, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,786 - Log_epoch:126, log_loss:0.0844, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,789 - Log_epoch:127, log_loss:0.0836, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,791 - Log_epoch:128, log_loss:0.0829, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,794 - Log_epoch:129, log_loss:0.0821, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,796 - Log_epoch:130, log_loss:0.0813, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,799 - Log_epoch:131, log_loss:0.0806, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,802 - Log_epoch:132, log_loss:0.0799, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,804 - Log_epoch:133, log_loss:0.0792, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,807 - Log_epoch:134, log_loss:0.0785, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,810 - Log_epoch:135, log_loss:0.0778, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,813 - Log_epoch:136, log_loss:0.0771, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,816 - Log_epoch:137, log_loss:0.0764, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,819 - Log_epoch:138, log_loss:0.0758, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,821 - Log_epoch:139, log_loss:0.0751, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,824 - Log_epoch:140, log_loss:0.0745, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,827 - Log_epoch:141, log_loss:0.0739, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,829 - Log_epoch:142, log_loss:0.0732, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,832 - Log_epoch:143, log_loss:0.0726, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,835 - Log_epoch:144, log_loss:0.0720, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,838 - Log_epoch:145, log_loss:0.0714, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,840 - Log_epoch:146, log_loss:0.0708, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,843 - Log_epoch:147, log_loss:0.0703, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,846 - Log_epoch:148, log_loss:0.0697, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,849 - Log_epoch:149, log_loss:0.0691, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:42,851 - Log_epoch:150, log_loss:0.0686, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:42,854 - Log_epoch:151, log_loss:0.0680, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:42,856 - Log_epoch:152, log_loss:0.0675, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,859 - Log_epoch:153, log_loss:0.0670, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,862 - Log_epoch:154, log_loss:0.0664, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,865 - Log_epoch:155, log_loss:0.0659, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,868 - Log_epoch:156, log_loss:0.0654, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,870 - Log_epoch:157, log_loss:0.0649, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,873 - Log_epoch:158, log_loss:0.0644, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,876 - Log_epoch:159, log_loss:0.0639, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,879 - Log_epoch:160, log_loss:0.0634, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,882 - Log_epoch:161, log_loss:0.0630, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,884 - Log_epoch:162, log_loss:0.0625, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:42,887 - Log_epoch:163, log_loss:0.0620, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:42,890 - Log_epoch:164, log_loss:0.0616, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:42,892 - Log_epoch:165, log_loss:0.0611, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:42,895 - Log_epoch:166, log_loss:0.0607, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:42,897 - Log_epoch:167, log_loss:0.0602, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:42,900 - Log_epoch:168, log_loss:0.0598, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:42,903 - Log_epoch:169, log_loss:0.0594, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:42,905 - Log_epoch:170, log_loss:0.0590, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:42,908 - Log_epoch:171, log_loss:0.0585, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:42,910 - Log_epoch:172, log_loss:0.0581, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:42,913 - Log_epoch:173, log_loss:0.0577, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:42,916 - Log_epoch:174, log_loss:0.0573, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:42,921 - Log_epoch:175, log_loss:0.0569, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:42,925 - Log_epoch:176, log_loss:0.0565, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,930 - Log_epoch:177, log_loss:0.0562, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,934 - Log_epoch:178, log_loss:0.0558, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,938 - Log_epoch:179, log_loss:0.0554, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,941 - Log_epoch:180, log_loss:0.0550, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,945 - Log_epoch:181, log_loss:0.0547, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,949 - Log_epoch:182, log_loss:0.0543, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,952 - Log_epoch:183, log_loss:0.0539, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,955 - Log_epoch:184, log_loss:0.0536, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,958 - Log_epoch:185, log_loss:0.0532, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,961 - Log_epoch:186, log_loss:0.0529, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,968 - Log_epoch:187, log_loss:0.0525, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,971 - Log_epoch:188, log_loss:0.0522, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,973 - Log_epoch:189, log_loss:0.0519, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,976 - Log_epoch:190, log_loss:0.0515, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,978 - Log_epoch:191, log_loss:0.0512, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,981 - Log_epoch:192, log_loss:0.0509, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,983 - Log_epoch:193, log_loss:0.0506, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,986 - Log_epoch:194, log_loss:0.0503, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,989 - Log_epoch:195, log_loss:0.0500, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,991 - Log_epoch:196, log_loss:0.0497, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,994 - Log_epoch:197, log_loss:0.0494, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:42,996 - Log_epoch:198, log_loss:0.0491, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:42,999 - Log_epoch:199, log_loss:0.0488, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,000 - test_acc:0.814, log_step:47
+2023-03-21 22:27:43,001 - model runs 6 times, mean_acc=0.8165+-0.0029860788111948223
+2023-03-21 22:27:43,001 - ================================Log runs 7=================================
+2023-03-21 22:27:43,022 - Log_epoch:000, log_loss:1.9491, train_acc:0.1714, val_acc:0.5020
+2023-03-21 22:27:43,025 - Log_epoch:001, log_loss:1.7887, train_acc:0.5786, val_acc:0.6740
+2023-03-21 22:27:43,027 - Log_epoch:002, log_loss:1.6376, train_acc:0.7571, val_acc:0.7100
+2023-03-21 22:27:43,030 - Log_epoch:003, log_loss:1.4966, train_acc:0.8214, val_acc:0.7220
+2023-03-21 22:27:43,033 - Log_epoch:004, log_loss:1.3664, train_acc:0.8286, val_acc:0.7280
+2023-03-21 22:27:43,035 - Log_epoch:005, log_loss:1.2474, train_acc:0.8429, val_acc:0.7280
+2023-03-21 22:27:43,038 - Log_epoch:006, log_loss:1.1400, train_acc:0.8500, val_acc:0.7360
+2023-03-21 22:27:43,040 - Log_epoch:007, log_loss:1.0439, train_acc:0.8500, val_acc:0.7420
+2023-03-21 22:27:43,042 - Log_epoch:008, log_loss:0.9587, train_acc:0.8500, val_acc:0.7400
+2023-03-21 22:27:43,044 - Log_epoch:009, log_loss:0.8837, train_acc:0.8500, val_acc:0.7400
+2023-03-21 22:27:43,047 - Log_epoch:010, log_loss:0.8181, train_acc:0.8500, val_acc:0.7420
+2023-03-21 22:27:43,049 - Log_epoch:011, log_loss:0.7608, train_acc:0.8571, val_acc:0.7420
+2023-03-21 22:27:43,051 - Log_epoch:012, log_loss:0.7108, train_acc:0.8643, val_acc:0.7460
+2023-03-21 22:27:43,054 - Log_epoch:013, log_loss:0.6672, train_acc:0.8643, val_acc:0.7460
+2023-03-21 22:27:43,056 - Log_epoch:014, log_loss:0.6290, train_acc:0.8714, val_acc:0.7460
+2023-03-21 22:27:43,058 - Log_epoch:015, log_loss:0.5955, train_acc:0.8714, val_acc:0.7580
+2023-03-21 22:27:43,061 - Log_epoch:016, log_loss:0.5658, train_acc:0.8714, val_acc:0.7580
+2023-03-21 22:27:43,063 - Log_epoch:017, log_loss:0.5395, train_acc:0.8714, val_acc:0.7620
+2023-03-21 22:27:43,065 - Log_epoch:018, log_loss:0.5160, train_acc:0.8714, val_acc:0.7620
+2023-03-21 22:27:43,068 - Log_epoch:019, log_loss:0.4948, train_acc:0.8714, val_acc:0.7640
+2023-03-21 22:27:43,071 - Log_epoch:020, log_loss:0.4757, train_acc:0.8714, val_acc:0.7660
+2023-03-21 22:27:43,073 - Log_epoch:021, log_loss:0.4582, train_acc:0.8714, val_acc:0.7700
+2023-03-21 22:27:43,075 - Log_epoch:022, log_loss:0.4422, train_acc:0.8714, val_acc:0.7700
+2023-03-21 22:27:43,078 - Log_epoch:023, log_loss:0.4274, train_acc:0.8786, val_acc:0.7720
+2023-03-21 22:27:43,081 - Log_epoch:024, log_loss:0.4137, train_acc:0.8857, val_acc:0.7740
+2023-03-21 22:27:43,083 - Log_epoch:025, log_loss:0.4009, train_acc:0.8857, val_acc:0.7740
+2023-03-21 22:27:43,085 - Log_epoch:026, log_loss:0.3889, train_acc:0.9000, val_acc:0.7740
+2023-03-21 22:27:43,088 - Log_epoch:027, log_loss:0.3776, train_acc:0.9143, val_acc:0.7760
+2023-03-21 22:27:43,090 - Log_epoch:028, log_loss:0.3670, train_acc:0.9143, val_acc:0.7760
+2023-03-21 22:27:43,092 - Log_epoch:029, log_loss:0.3569, train_acc:0.9143, val_acc:0.7780
+2023-03-21 22:27:43,095 - Log_epoch:030, log_loss:0.3474, train_acc:0.9143, val_acc:0.7780
+2023-03-21 22:27:43,097 - Log_epoch:031, log_loss:0.3383, train_acc:0.9286, val_acc:0.7780
+2023-03-21 22:27:43,099 - Log_epoch:032, log_loss:0.3297, train_acc:0.9286, val_acc:0.7780
+2023-03-21 22:27:43,101 - Log_epoch:033, log_loss:0.3215, train_acc:0.9286, val_acc:0.7780
+2023-03-21 22:27:43,104 - Log_epoch:034, log_loss:0.3137, train_acc:0.9429, val_acc:0.7780
+2023-03-21 22:27:43,106 - Log_epoch:035, log_loss:0.3062, train_acc:0.9500, val_acc:0.7780
+2023-03-21 22:27:43,108 - Log_epoch:036, log_loss:0.2991, train_acc:0.9500, val_acc:0.7780
+2023-03-21 22:27:43,110 - Log_epoch:037, log_loss:0.2922, train_acc:0.9500, val_acc:0.7760
+2023-03-21 22:27:43,113 - Log_epoch:038, log_loss:0.2857, train_acc:0.9500, val_acc:0.7800
+2023-03-21 22:27:43,115 - Log_epoch:039, log_loss:0.2794, train_acc:0.9500, val_acc:0.7800
+2023-03-21 22:27:43,117 - Log_epoch:040, log_loss:0.2734, train_acc:0.9500, val_acc:0.7800
+2023-03-21 22:27:43,119 - Log_epoch:041, log_loss:0.2676, train_acc:0.9500, val_acc:0.7780
+2023-03-21 22:27:43,122 - Log_epoch:042, log_loss:0.2621, train_acc:0.9500, val_acc:0.7800
+2023-03-21 22:27:43,124 - Log_epoch:043, log_loss:0.2567, train_acc:0.9500, val_acc:0.7840
+2023-03-21 22:27:43,127 - Log_epoch:044, log_loss:0.2516, train_acc:0.9500, val_acc:0.7860
+2023-03-21 22:27:43,129 - Log_epoch:045, log_loss:0.2466, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:43,131 - Log_epoch:046, log_loss:0.2418, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:43,134 - Log_epoch:047, log_loss:0.2372, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:43,136 - Log_epoch:048, log_loss:0.2327, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:43,138 - Log_epoch:049, log_loss:0.2284, train_acc:0.9571, val_acc:0.7880
+2023-03-21 22:27:43,141 - Log_epoch:050, log_loss:0.2242, train_acc:0.9571, val_acc:0.7880
+2023-03-21 22:27:43,143 - Log_epoch:051, log_loss:0.2201, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:43,145 - Log_epoch:052, log_loss:0.2162, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:43,147 - Log_epoch:053, log_loss:0.2124, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:43,149 - Log_epoch:054, log_loss:0.2087, train_acc:0.9643, val_acc:0.7860
+2023-03-21 22:27:43,152 - Log_epoch:055, log_loss:0.2051, train_acc:0.9643, val_acc:0.7860
+2023-03-21 22:27:43,154 - Log_epoch:056, log_loss:0.2016, train_acc:0.9643, val_acc:0.7880
+2023-03-21 22:27:43,156 - Log_epoch:057, log_loss:0.1982, train_acc:0.9643, val_acc:0.7880
+2023-03-21 22:27:43,158 - Log_epoch:058, log_loss:0.1949, train_acc:0.9643, val_acc:0.7860
+2023-03-21 22:27:43,161 - Log_epoch:059, log_loss:0.1917, train_acc:0.9643, val_acc:0.7880
+2023-03-21 22:27:43,163 - Log_epoch:060, log_loss:0.1885, train_acc:0.9714, val_acc:0.7880
+2023-03-21 22:27:43,166 - Log_epoch:061, log_loss:0.1855, train_acc:0.9714, val_acc:0.7900
+2023-03-21 22:27:43,168 - Log_epoch:062, log_loss:0.1825, train_acc:0.9786, val_acc:0.7920
+2023-03-21 22:27:43,170 - Log_epoch:063, log_loss:0.1796, train_acc:0.9786, val_acc:0.7920
+2023-03-21 22:27:43,173 - Log_epoch:064, log_loss:0.1768, train_acc:0.9786, val_acc:0.7920
+2023-03-21 22:27:43,175 - Log_epoch:065, log_loss:0.1741, train_acc:0.9786, val_acc:0.7920
+2023-03-21 22:27:43,177 - Log_epoch:066, log_loss:0.1714, train_acc:0.9786, val_acc:0.7900
+2023-03-21 22:27:43,179 - Log_epoch:067, log_loss:0.1688, train_acc:0.9786, val_acc:0.7880
+2023-03-21 22:27:43,182 - Log_epoch:068, log_loss:0.1663, train_acc:0.9786, val_acc:0.7880
+2023-03-21 22:27:43,184 - Log_epoch:069, log_loss:0.1638, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:43,186 - Log_epoch:070, log_loss:0.1614, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:43,188 - Log_epoch:071, log_loss:0.1591, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:43,190 - Log_epoch:072, log_loss:0.1568, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:43,193 - Log_epoch:073, log_loss:0.1546, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:43,195 - Log_epoch:074, log_loss:0.1524, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:43,197 - Log_epoch:075, log_loss:0.1502, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:43,199 - Log_epoch:076, log_loss:0.1482, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:43,202 - Log_epoch:077, log_loss:0.1461, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:43,204 - Log_epoch:078, log_loss:0.1442, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:43,206 - Log_epoch:079, log_loss:0.1422, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:43,208 - Log_epoch:080, log_loss:0.1403, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:43,210 - Log_epoch:081, log_loss:0.1385, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:43,211 - Log_epoch:082, log_loss:0.1367, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:43,214 - Log_epoch:083, log_loss:0.1349, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:43,215 - Log_epoch:084, log_loss:0.1332, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:43,217 - Log_epoch:085, log_loss:0.1315, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:43,219 - Log_epoch:086, log_loss:0.1298, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:43,221 - Log_epoch:087, log_loss:0.1282, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:43,223 - Log_epoch:088, log_loss:0.1266, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:43,226 - Log_epoch:089, log_loss:0.1250, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:43,228 - Log_epoch:090, log_loss:0.1235, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:43,230 - Log_epoch:091, log_loss:0.1220, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:43,232 - Log_epoch:092, log_loss:0.1206, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:43,234 - Log_epoch:093, log_loss:0.1191, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:43,236 - Log_epoch:094, log_loss:0.1177, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:43,239 - Log_epoch:095, log_loss:0.1163, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:43,241 - Log_epoch:096, log_loss:0.1150, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:43,243 - Log_epoch:097, log_loss:0.1137, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:43,246 - Log_epoch:098, log_loss:0.1124, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:43,248 - Log_epoch:099, log_loss:0.1111, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:43,250 - Log_epoch:100, log_loss:0.1098, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:43,253 - Log_epoch:101, log_loss:0.1086, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:43,255 - Log_epoch:102, log_loss:0.1074, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:43,258 - Log_epoch:103, log_loss:0.1062, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:43,260 - Log_epoch:104, log_loss:0.1051, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:43,262 - Log_epoch:105, log_loss:0.1039, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:43,265 - Log_epoch:106, log_loss:0.1028, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:43,267 - Log_epoch:107, log_loss:0.1017, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:43,270 - Log_epoch:108, log_loss:0.1006, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:43,272 - Log_epoch:109, log_loss:0.0996, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:43,274 - Log_epoch:110, log_loss:0.0985, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:43,277 - Log_epoch:111, log_loss:0.0975, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:43,279 - Log_epoch:112, log_loss:0.0965, train_acc:0.9929, val_acc:0.7760
+2023-03-21 22:27:43,281 - Log_epoch:113, log_loss:0.0955, train_acc:0.9929, val_acc:0.7760
+2023-03-21 22:27:43,284 - Log_epoch:114, log_loss:0.0946, train_acc:0.9929, val_acc:0.7760
+2023-03-21 22:27:43,286 - Log_epoch:115, log_loss:0.0936, train_acc:0.9929, val_acc:0.7760
+2023-03-21 22:27:43,288 - Log_epoch:116, log_loss:0.0927, train_acc:0.9929, val_acc:0.7760
+2023-03-21 22:27:43,291 - Log_epoch:117, log_loss:0.0918, train_acc:0.9929, val_acc:0.7760
+2023-03-21 22:27:43,293 - Log_epoch:118, log_loss:0.0909, train_acc:0.9929, val_acc:0.7760
+2023-03-21 22:27:43,296 - Log_epoch:119, log_loss:0.0900, train_acc:0.9929, val_acc:0.7760
+2023-03-21 22:27:43,298 - Log_epoch:120, log_loss:0.0891, train_acc:0.9929, val_acc:0.7740
+2023-03-21 22:27:43,300 - Log_epoch:121, log_loss:0.0882, train_acc:0.9929, val_acc:0.7740
+2023-03-21 22:27:43,303 - Log_epoch:122, log_loss:0.0874, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,305 - Log_epoch:123, log_loss:0.0866, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,308 - Log_epoch:124, log_loss:0.0857, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,310 - Log_epoch:125, log_loss:0.0849, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,313 - Log_epoch:126, log_loss:0.0841, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,316 - Log_epoch:127, log_loss:0.0834, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,322 - Log_epoch:128, log_loss:0.0826, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,325 - Log_epoch:129, log_loss:0.0818, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,328 - Log_epoch:130, log_loss:0.0811, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,330 - Log_epoch:131, log_loss:0.0804, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,333 - Log_epoch:132, log_loss:0.0796, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,336 - Log_epoch:133, log_loss:0.0789, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,338 - Log_epoch:134, log_loss:0.0782, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,341 - Log_epoch:135, log_loss:0.0775, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:43,343 - Log_epoch:136, log_loss:0.0769, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:43,346 - Log_epoch:137, log_loss:0.0762, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:43,348 - Log_epoch:138, log_loss:0.0755, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:43,351 - Log_epoch:139, log_loss:0.0749, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:43,354 - Log_epoch:140, log_loss:0.0743, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:43,356 - Log_epoch:141, log_loss:0.0736, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:43,359 - Log_epoch:142, log_loss:0.0730, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:43,361 - Log_epoch:143, log_loss:0.0724, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:43,364 - Log_epoch:144, log_loss:0.0718, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:43,366 - Log_epoch:145, log_loss:0.0712, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:43,369 - Log_epoch:146, log_loss:0.0706, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:43,371 - Log_epoch:147, log_loss:0.0700, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:43,374 - Log_epoch:148, log_loss:0.0695, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:43,376 - Log_epoch:149, log_loss:0.0689, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:43,379 - Log_epoch:150, log_loss:0.0684, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,381 - Log_epoch:151, log_loss:0.0678, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,384 - Log_epoch:152, log_loss:0.0673, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,386 - Log_epoch:153, log_loss:0.0668, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,389 - Log_epoch:154, log_loss:0.0662, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,391 - Log_epoch:155, log_loss:0.0657, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,394 - Log_epoch:156, log_loss:0.0652, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,396 - Log_epoch:157, log_loss:0.0647, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,399 - Log_epoch:158, log_loss:0.0642, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,401 - Log_epoch:159, log_loss:0.0637, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,404 - Log_epoch:160, log_loss:0.0633, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,406 - Log_epoch:161, log_loss:0.0628, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,409 - Log_epoch:162, log_loss:0.0623, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,411 - Log_epoch:163, log_loss:0.0619, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,414 - Log_epoch:164, log_loss:0.0614, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,416 - Log_epoch:165, log_loss:0.0610, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,418 - Log_epoch:166, log_loss:0.0605, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,421 - Log_epoch:167, log_loss:0.0601, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,423 - Log_epoch:168, log_loss:0.0596, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,426 - Log_epoch:169, log_loss:0.0592, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,428 - Log_epoch:170, log_loss:0.0588, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,431 - Log_epoch:171, log_loss:0.0584, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,433 - Log_epoch:172, log_loss:0.0580, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,436 - Log_epoch:173, log_loss:0.0576, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,438 - Log_epoch:174, log_loss:0.0572, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,441 - Log_epoch:175, log_loss:0.0568, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,443 - Log_epoch:176, log_loss:0.0564, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,446 - Log_epoch:177, log_loss:0.0560, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,449 - Log_epoch:178, log_loss:0.0556, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,452 - Log_epoch:179, log_loss:0.0553, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,455 - Log_epoch:180, log_loss:0.0549, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,458 - Log_epoch:181, log_loss:0.0545, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,461 - Log_epoch:182, log_loss:0.0542, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,464 - Log_epoch:183, log_loss:0.0538, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,467 - Log_epoch:184, log_loss:0.0534, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,469 - Log_epoch:185, log_loss:0.0531, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,472 - Log_epoch:186, log_loss:0.0528, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,475 - Log_epoch:187, log_loss:0.0524, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,478 - Log_epoch:188, log_loss:0.0521, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,481 - Log_epoch:189, log_loss:0.0518, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,483 - Log_epoch:190, log_loss:0.0514, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,486 - Log_epoch:191, log_loss:0.0511, train_acc:1.0000, val_acc:0.7700
+2023-03-21 22:27:43,488 - Log_epoch:192, log_loss:0.0508, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,491 - Log_epoch:193, log_loss:0.0505, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,494 - Log_epoch:194, log_loss:0.0502, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,497 - Log_epoch:195, log_loss:0.0498, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,499 - Log_epoch:196, log_loss:0.0495, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,502 - Log_epoch:197, log_loss:0.0492, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:43,505 - Log_epoch:198, log_loss:0.0489, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,508 - Log_epoch:199, log_loss:0.0486, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,509 - test_acc:0.82, log_step:62
+2023-03-21 22:27:43,509 - model runs 7 times, mean_acc=0.8170000000000001+-0.0030237157840738204
+2023-03-21 22:27:43,509 - ================================Log runs 8=================================
+2023-03-21 22:27:43,529 - Log_epoch:000, log_loss:1.9679, train_acc:0.0714, val_acc:0.4880
+2023-03-21 22:27:43,532 - Log_epoch:001, log_loss:1.8068, train_acc:0.6357, val_acc:0.6720
+2023-03-21 22:27:43,535 - Log_epoch:002, log_loss:1.6550, train_acc:0.7857, val_acc:0.7140
+2023-03-21 22:27:43,538 - Log_epoch:003, log_loss:1.5131, train_acc:0.8286, val_acc:0.7300
+2023-03-21 22:27:43,540 - Log_epoch:004, log_loss:1.3821, train_acc:0.8643, val_acc:0.7280
+2023-03-21 22:27:43,543 - Log_epoch:005, log_loss:1.2623, train_acc:0.8643, val_acc:0.7360
+2023-03-21 22:27:43,546 - Log_epoch:006, log_loss:1.1540, train_acc:0.8643, val_acc:0.7420
+2023-03-21 22:27:43,548 - Log_epoch:007, log_loss:1.0572, train_acc:0.8643, val_acc:0.7500
+2023-03-21 22:27:43,551 - Log_epoch:008, log_loss:0.9713, train_acc:0.8571, val_acc:0.7520
+2023-03-21 22:27:43,554 - Log_epoch:009, log_loss:0.8957, train_acc:0.8571, val_acc:0.7600
+2023-03-21 22:27:43,556 - Log_epoch:010, log_loss:0.8295, train_acc:0.8643, val_acc:0.7540
+2023-03-21 22:27:43,558 - Log_epoch:011, log_loss:0.7717, train_acc:0.8643, val_acc:0.7540
+2023-03-21 22:27:43,560 - Log_epoch:012, log_loss:0.7212, train_acc:0.8714, val_acc:0.7540
+2023-03-21 22:27:43,563 - Log_epoch:013, log_loss:0.6771, train_acc:0.8714, val_acc:0.7560
+2023-03-21 22:27:43,566 - Log_epoch:014, log_loss:0.6384, train_acc:0.8786, val_acc:0.7580
+2023-03-21 22:27:43,569 - Log_epoch:015, log_loss:0.6044, train_acc:0.8786, val_acc:0.7580
+2023-03-21 22:27:43,572 - Log_epoch:016, log_loss:0.5744, train_acc:0.8786, val_acc:0.7600
+2023-03-21 22:27:43,575 - Log_epoch:017, log_loss:0.5476, train_acc:0.8786, val_acc:0.7640
+2023-03-21 22:27:43,578 - Log_epoch:018, log_loss:0.5237, train_acc:0.8786, val_acc:0.7620
+2023-03-21 22:27:43,581 - Log_epoch:019, log_loss:0.5022, train_acc:0.8714, val_acc:0.7640
+2023-03-21 22:27:43,583 - Log_epoch:020, log_loss:0.4827, train_acc:0.8714, val_acc:0.7640
+2023-03-21 22:27:43,586 - Log_epoch:021, log_loss:0.4650, train_acc:0.8714, val_acc:0.7620
+2023-03-21 22:27:43,589 - Log_epoch:022, log_loss:0.4487, train_acc:0.8714, val_acc:0.7640
+2023-03-21 22:27:43,592 - Log_epoch:023, log_loss:0.4336, train_acc:0.8714, val_acc:0.7680
+2023-03-21 22:27:43,594 - Log_epoch:024, log_loss:0.4197, train_acc:0.8714, val_acc:0.7660
+2023-03-21 22:27:43,597 - Log_epoch:025, log_loss:0.4067, train_acc:0.8857, val_acc:0.7680
+2023-03-21 22:27:43,600 - Log_epoch:026, log_loss:0.3945, train_acc:0.8929, val_acc:0.7680
+2023-03-21 22:27:43,603 - Log_epoch:027, log_loss:0.3830, train_acc:0.8929, val_acc:0.7700
+2023-03-21 22:27:43,606 - Log_epoch:028, log_loss:0.3722, train_acc:0.9214, val_acc:0.7720
+2023-03-21 22:27:43,609 - Log_epoch:029, log_loss:0.3620, train_acc:0.9214, val_acc:0.7780
+2023-03-21 22:27:43,612 - Log_epoch:030, log_loss:0.3523, train_acc:0.9214, val_acc:0.7820
+2023-03-21 22:27:43,615 - Log_epoch:031, log_loss:0.3430, train_acc:0.9286, val_acc:0.7820
+2023-03-21 22:27:43,618 - Log_epoch:032, log_loss:0.3342, train_acc:0.9286, val_acc:0.7820
+2023-03-21 22:27:43,621 - Log_epoch:033, log_loss:0.3259, train_acc:0.9286, val_acc:0.7820
+2023-03-21 22:27:43,624 - Log_epoch:034, log_loss:0.3179, train_acc:0.9286, val_acc:0.7820
+2023-03-21 22:27:43,626 - Log_epoch:035, log_loss:0.3102, train_acc:0.9429, val_acc:0.7820
+2023-03-21 22:27:43,629 - Log_epoch:036, log_loss:0.3029, train_acc:0.9429, val_acc:0.7800
+2023-03-21 22:27:43,632 - Log_epoch:037, log_loss:0.2960, train_acc:0.9429, val_acc:0.7820
+2023-03-21 22:27:43,635 - Log_epoch:038, log_loss:0.2893, train_acc:0.9429, val_acc:0.7820
+2023-03-21 22:27:43,638 - Log_epoch:039, log_loss:0.2829, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:43,642 - Log_epoch:040, log_loss:0.2767, train_acc:0.9500, val_acc:0.7860
+2023-03-21 22:27:43,646 - Log_epoch:041, log_loss:0.2708, train_acc:0.9500, val_acc:0.7900
+2023-03-21 22:27:43,649 - Log_epoch:042, log_loss:0.2652, train_acc:0.9500, val_acc:0.7900
+2023-03-21 22:27:43,652 - Log_epoch:043, log_loss:0.2597, train_acc:0.9500, val_acc:0.7880
+2023-03-21 22:27:43,656 - Log_epoch:044, log_loss:0.2545, train_acc:0.9500, val_acc:0.7880
+2023-03-21 22:27:43,659 - Log_epoch:045, log_loss:0.2494, train_acc:0.9500, val_acc:0.7900
+2023-03-21 22:27:43,663 - Log_epoch:046, log_loss:0.2446, train_acc:0.9571, val_acc:0.7880
+2023-03-21 22:27:43,667 - Log_epoch:047, log_loss:0.2399, train_acc:0.9571, val_acc:0.7880
+2023-03-21 22:27:43,669 - Log_epoch:048, log_loss:0.2353, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:43,671 - Log_epoch:049, log_loss:0.2309, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:43,674 - Log_epoch:050, log_loss:0.2267, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:43,676 - Log_epoch:051, log_loss:0.2226, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:43,678 - Log_epoch:052, log_loss:0.2186, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:43,680 - Log_epoch:053, log_loss:0.2147, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:43,683 - Log_epoch:054, log_loss:0.2110, train_acc:0.9571, val_acc:0.7820
+2023-03-21 22:27:43,685 - Log_epoch:055, log_loss:0.2073, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:43,687 - Log_epoch:056, log_loss:0.2038, train_acc:0.9643, val_acc:0.7840
+2023-03-21 22:27:43,689 - Log_epoch:057, log_loss:0.2003, train_acc:0.9643, val_acc:0.7840
+2023-03-21 22:27:43,692 - Log_epoch:058, log_loss:0.1970, train_acc:0.9643, val_acc:0.7800
+2023-03-21 22:27:43,694 - Log_epoch:059, log_loss:0.1937, train_acc:0.9643, val_acc:0.7800
+2023-03-21 22:27:43,696 - Log_epoch:060, log_loss:0.1906, train_acc:0.9786, val_acc:0.7820
+2023-03-21 22:27:43,698 - Log_epoch:061, log_loss:0.1875, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:43,701 - Log_epoch:062, log_loss:0.1845, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:43,703 - Log_epoch:063, log_loss:0.1816, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:43,705 - Log_epoch:064, log_loss:0.1788, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:43,707 - Log_epoch:065, log_loss:0.1760, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:43,710 - Log_epoch:066, log_loss:0.1733, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:43,711 - Log_epoch:067, log_loss:0.1707, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:43,713 - Log_epoch:068, log_loss:0.1681, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:43,715 - Log_epoch:069, log_loss:0.1656, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:43,717 - Log_epoch:070, log_loss:0.1632, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:43,719 - Log_epoch:071, log_loss:0.1608, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:43,721 - Log_epoch:072, log_loss:0.1585, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:43,723 - Log_epoch:073, log_loss:0.1563, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:43,725 - Log_epoch:074, log_loss:0.1540, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:43,727 - Log_epoch:075, log_loss:0.1519, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:43,729 - Log_epoch:076, log_loss:0.1498, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:43,731 - Log_epoch:077, log_loss:0.1477, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:43,733 - Log_epoch:078, log_loss:0.1457, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:43,736 - Log_epoch:079, log_loss:0.1438, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:43,738 - Log_epoch:080, log_loss:0.1419, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:43,740 - Log_epoch:081, log_loss:0.1400, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:43,743 - Log_epoch:082, log_loss:0.1382, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:43,745 - Log_epoch:083, log_loss:0.1364, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:43,748 - Log_epoch:084, log_loss:0.1346, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:43,751 - Log_epoch:085, log_loss:0.1329, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:43,753 - Log_epoch:086, log_loss:0.1312, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:43,756 - Log_epoch:087, log_loss:0.1296, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:43,759 - Log_epoch:088, log_loss:0.1280, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:43,762 - Log_epoch:089, log_loss:0.1264, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:43,765 - Log_epoch:090, log_loss:0.1249, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:43,767 - Log_epoch:091, log_loss:0.1233, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:43,770 - Log_epoch:092, log_loss:0.1219, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:43,773 - Log_epoch:093, log_loss:0.1204, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:43,775 - Log_epoch:094, log_loss:0.1190, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:43,778 - Log_epoch:095, log_loss:0.1176, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:43,780 - Log_epoch:096, log_loss:0.1162, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:43,783 - Log_epoch:097, log_loss:0.1149, train_acc:0.9857, val_acc:0.7740
+2023-03-21 22:27:43,786 - Log_epoch:098, log_loss:0.1136, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:43,789 - Log_epoch:099, log_loss:0.1123, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:43,791 - Log_epoch:100, log_loss:0.1110, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:43,794 - Log_epoch:101, log_loss:0.1098, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:43,797 - Log_epoch:102, log_loss:0.1085, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:43,800 - Log_epoch:103, log_loss:0.1073, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:43,803 - Log_epoch:104, log_loss:0.1062, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:43,806 - Log_epoch:105, log_loss:0.1050, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:43,808 - Log_epoch:106, log_loss:0.1039, train_acc:0.9857, val_acc:0.7700
+2023-03-21 22:27:43,811 - Log_epoch:107, log_loss:0.1028, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:43,814 - Log_epoch:108, log_loss:0.1017, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:43,816 - Log_epoch:109, log_loss:0.1006, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:43,819 - Log_epoch:110, log_loss:0.0996, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:43,822 - Log_epoch:111, log_loss:0.0985, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:43,825 - Log_epoch:112, log_loss:0.0975, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:43,827 - Log_epoch:113, log_loss:0.0965, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:43,830 - Log_epoch:114, log_loss:0.0955, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:43,834 - Log_epoch:115, log_loss:0.0946, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,837 - Log_epoch:116, log_loss:0.0936, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,840 - Log_epoch:117, log_loss:0.0927, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,842 - Log_epoch:118, log_loss:0.0918, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,844 - Log_epoch:119, log_loss:0.0909, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,847 - Log_epoch:120, log_loss:0.0900, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,849 - Log_epoch:121, log_loss:0.0891, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,851 - Log_epoch:122, log_loss:0.0882, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,854 - Log_epoch:123, log_loss:0.0874, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,856 - Log_epoch:124, log_loss:0.0866, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,858 - Log_epoch:125, log_loss:0.0858, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,861 - Log_epoch:126, log_loss:0.0850, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,863 - Log_epoch:127, log_loss:0.0842, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,866 - Log_epoch:128, log_loss:0.0834, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,869 - Log_epoch:129, log_loss:0.0826, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,871 - Log_epoch:130, log_loss:0.0819, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,874 - Log_epoch:131, log_loss:0.0811, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,877 - Log_epoch:132, log_loss:0.0804, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,880 - Log_epoch:133, log_loss:0.0797, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,882 - Log_epoch:134, log_loss:0.0790, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,885 - Log_epoch:135, log_loss:0.0783, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,888 - Log_epoch:136, log_loss:0.0776, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,891 - Log_epoch:137, log_loss:0.0769, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,893 - Log_epoch:138, log_loss:0.0762, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,896 - Log_epoch:139, log_loss:0.0756, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,899 - Log_epoch:140, log_loss:0.0749, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:43,902 - Log_epoch:141, log_loss:0.0743, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:43,904 - Log_epoch:142, log_loss:0.0737, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:43,907 - Log_epoch:143, log_loss:0.0731, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:43,910 - Log_epoch:144, log_loss:0.0725, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:43,912 - Log_epoch:145, log_loss:0.0719, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:43,915 - Log_epoch:146, log_loss:0.0713, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:43,918 - Log_epoch:147, log_loss:0.0707, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:43,920 - Log_epoch:148, log_loss:0.0701, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:43,923 - Log_epoch:149, log_loss:0.0695, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:43,926 - Log_epoch:150, log_loss:0.0690, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:43,928 - Log_epoch:151, log_loss:0.0684, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:43,930 - Log_epoch:152, log_loss:0.0679, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,933 - Log_epoch:153, log_loss:0.0674, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,935 - Log_epoch:154, log_loss:0.0668, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,938 - Log_epoch:155, log_loss:0.0663, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,940 - Log_epoch:156, log_loss:0.0658, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,943 - Log_epoch:157, log_loss:0.0653, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,945 - Log_epoch:158, log_loss:0.0648, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,948 - Log_epoch:159, log_loss:0.0643, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,950 - Log_epoch:160, log_loss:0.0638, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,952 - Log_epoch:161, log_loss:0.0633, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,955 - Log_epoch:162, log_loss:0.0629, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,957 - Log_epoch:163, log_loss:0.0624, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,960 - Log_epoch:164, log_loss:0.0619, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,962 - Log_epoch:165, log_loss:0.0615, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,965 - Log_epoch:166, log_loss:0.0610, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,967 - Log_epoch:167, log_loss:0.0606, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:43,969 - Log_epoch:168, log_loss:0.0602, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:43,972 - Log_epoch:169, log_loss:0.0597, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:43,974 - Log_epoch:170, log_loss:0.0593, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,976 - Log_epoch:171, log_loss:0.0589, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,979 - Log_epoch:172, log_loss:0.0585, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,987 - Log_epoch:173, log_loss:0.0581, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,990 - Log_epoch:174, log_loss:0.0577, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,993 - Log_epoch:175, log_loss:0.0573, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,996 - Log_epoch:176, log_loss:0.0569, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:43,999 - Log_epoch:177, log_loss:0.0565, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,002 - Log_epoch:178, log_loss:0.0561, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,004 - Log_epoch:179, log_loss:0.0557, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,007 - Log_epoch:180, log_loss:0.0553, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,010 - Log_epoch:181, log_loss:0.0550, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,013 - Log_epoch:182, log_loss:0.0546, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,016 - Log_epoch:183, log_loss:0.0542, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,019 - Log_epoch:184, log_loss:0.0539, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,021 - Log_epoch:185, log_loss:0.0535, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,024 - Log_epoch:186, log_loss:0.0532, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,027 - Log_epoch:187, log_loss:0.0528, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,029 - Log_epoch:188, log_loss:0.0525, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,032 - Log_epoch:189, log_loss:0.0522, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,034 - Log_epoch:190, log_loss:0.0518, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,037 - Log_epoch:191, log_loss:0.0515, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,040 - Log_epoch:192, log_loss:0.0512, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,042 - Log_epoch:193, log_loss:0.0509, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,045 - Log_epoch:194, log_loss:0.0506, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,048 - Log_epoch:195, log_loss:0.0502, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,051 - Log_epoch:196, log_loss:0.0499, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,053 - Log_epoch:197, log_loss:0.0496, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,056 - Log_epoch:198, log_loss:0.0493, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,059 - Log_epoch:199, log_loss:0.0490, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,061 - test_acc:0.814, log_step:41
+2023-03-21 22:27:44,061 - model runs 8 times, mean_acc=0.8166249999999999+-0.0029973947020704526
+2023-03-21 22:27:44,061 - ================================Log runs 9=================================
+2023-03-21 22:27:44,085 - Log_epoch:000, log_loss:1.9791, train_acc:0.1071, val_acc:0.5400
+2023-03-21 22:27:44,088 - Log_epoch:001, log_loss:1.8176, train_acc:0.4643, val_acc:0.6960
+2023-03-21 22:27:44,090 - Log_epoch:002, log_loss:1.6650, train_acc:0.7429, val_acc:0.7340
+2023-03-21 22:27:44,093 - Log_epoch:003, log_loss:1.5223, train_acc:0.8143, val_acc:0.7440
+2023-03-21 22:27:44,096 - Log_epoch:004, log_loss:1.3903, train_acc:0.8357, val_acc:0.7540
+2023-03-21 22:27:44,098 - Log_epoch:005, log_loss:1.2694, train_acc:0.8357, val_acc:0.7620
+2023-03-21 22:27:44,100 - Log_epoch:006, log_loss:1.1600, train_acc:0.8429, val_acc:0.7620
+2023-03-21 22:27:44,103 - Log_epoch:007, log_loss:1.0620, train_acc:0.8500, val_acc:0.7640
+2023-03-21 22:27:44,105 - Log_epoch:008, log_loss:0.9750, train_acc:0.8500, val_acc:0.7620
+2023-03-21 22:27:44,108 - Log_epoch:009, log_loss:0.8983, train_acc:0.8571, val_acc:0.7600
+2023-03-21 22:27:44,110 - Log_epoch:010, log_loss:0.8312, train_acc:0.8571, val_acc:0.7620
+2023-03-21 22:27:44,112 - Log_epoch:011, log_loss:0.7726, train_acc:0.8571, val_acc:0.7640
+2023-03-21 22:27:44,114 - Log_epoch:012, log_loss:0.7215, train_acc:0.8643, val_acc:0.7640
+2023-03-21 22:27:44,117 - Log_epoch:013, log_loss:0.6769, train_acc:0.8643, val_acc:0.7620
+2023-03-21 22:27:44,119 - Log_epoch:014, log_loss:0.6379, train_acc:0.8643, val_acc:0.7640
+2023-03-21 22:27:44,121 - Log_epoch:015, log_loss:0.6036, train_acc:0.8643, val_acc:0.7640
+2023-03-21 22:27:44,123 - Log_epoch:016, log_loss:0.5734, train_acc:0.8714, val_acc:0.7640
+2023-03-21 22:27:44,126 - Log_epoch:017, log_loss:0.5465, train_acc:0.8714, val_acc:0.7680
+2023-03-21 22:27:44,129 - Log_epoch:018, log_loss:0.5225, train_acc:0.8643, val_acc:0.7720
+2023-03-21 22:27:44,131 - Log_epoch:019, log_loss:0.5009, train_acc:0.8643, val_acc:0.7680
+2023-03-21 22:27:44,133 - Log_epoch:020, log_loss:0.4814, train_acc:0.8643, val_acc:0.7700
+2023-03-21 22:27:44,136 - Log_epoch:021, log_loss:0.4636, train_acc:0.8643, val_acc:0.7760
+2023-03-21 22:27:44,139 - Log_epoch:022, log_loss:0.4472, train_acc:0.8643, val_acc:0.7780
+2023-03-21 22:27:44,141 - Log_epoch:023, log_loss:0.4321, train_acc:0.8643, val_acc:0.7800
+2023-03-21 22:27:44,144 - Log_epoch:024, log_loss:0.4182, train_acc:0.8643, val_acc:0.7820
+2023-03-21 22:27:44,146 - Log_epoch:025, log_loss:0.4051, train_acc:0.8714, val_acc:0.7820
+2023-03-21 22:27:44,149 - Log_epoch:026, log_loss:0.3929, train_acc:0.8857, val_acc:0.7840
+2023-03-21 22:27:44,151 - Log_epoch:027, log_loss:0.3814, train_acc:0.9000, val_acc:0.7840
+2023-03-21 22:27:44,153 - Log_epoch:028, log_loss:0.3706, train_acc:0.9214, val_acc:0.7820
+2023-03-21 22:27:44,155 - Log_epoch:029, log_loss:0.3604, train_acc:0.9286, val_acc:0.7820
+2023-03-21 22:27:44,157 - Log_epoch:030, log_loss:0.3507, train_acc:0.9286, val_acc:0.7800
+2023-03-21 22:27:44,160 - Log_epoch:031, log_loss:0.3414, train_acc:0.9286, val_acc:0.7800
+2023-03-21 22:27:44,162 - Log_epoch:032, log_loss:0.3327, train_acc:0.9286, val_acc:0.7820
+2023-03-21 22:27:44,164 - Log_epoch:033, log_loss:0.3243, train_acc:0.9286, val_acc:0.7820
+2023-03-21 22:27:44,166 - Log_epoch:034, log_loss:0.3164, train_acc:0.9357, val_acc:0.7820
+2023-03-21 22:27:44,169 - Log_epoch:035, log_loss:0.3087, train_acc:0.9357, val_acc:0.7820
+2023-03-21 22:27:44,171 - Log_epoch:036, log_loss:0.3015, train_acc:0.9357, val_acc:0.7820
+2023-03-21 22:27:44,173 - Log_epoch:037, log_loss:0.2945, train_acc:0.9429, val_acc:0.7820
+2023-03-21 22:27:44,175 - Log_epoch:038, log_loss:0.2879, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:44,177 - Log_epoch:039, log_loss:0.2815, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:44,180 - Log_epoch:040, log_loss:0.2754, train_acc:0.9500, val_acc:0.7860
+2023-03-21 22:27:44,183 - Log_epoch:041, log_loss:0.2695, train_acc:0.9500, val_acc:0.7880
+2023-03-21 22:27:44,185 - Log_epoch:042, log_loss:0.2639, train_acc:0.9500, val_acc:0.7880
+2023-03-21 22:27:44,187 - Log_epoch:043, log_loss:0.2585, train_acc:0.9500, val_acc:0.7880
+2023-03-21 22:27:44,189 - Log_epoch:044, log_loss:0.2533, train_acc:0.9500, val_acc:0.7840
+2023-03-21 22:27:44,192 - Log_epoch:045, log_loss:0.2483, train_acc:0.9500, val_acc:0.7840
+2023-03-21 22:27:44,195 - Log_epoch:046, log_loss:0.2434, train_acc:0.9500, val_acc:0.7840
+2023-03-21 22:27:44,199 - Log_epoch:047, log_loss:0.2387, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:44,203 - Log_epoch:048, log_loss:0.2342, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:44,207 - Log_epoch:049, log_loss:0.2298, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:44,211 - Log_epoch:050, log_loss:0.2256, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:44,214 - Log_epoch:051, log_loss:0.2215, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:44,217 - Log_epoch:052, log_loss:0.2175, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:44,220 - Log_epoch:053, log_loss:0.2137, train_acc:0.9571, val_acc:0.7880
+2023-03-21 22:27:44,223 - Log_epoch:054, log_loss:0.2099, train_acc:0.9571, val_acc:0.7880
+2023-03-21 22:27:44,225 - Log_epoch:055, log_loss:0.2063, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:44,228 - Log_epoch:056, log_loss:0.2028, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:44,230 - Log_epoch:057, log_loss:0.1993, train_acc:0.9714, val_acc:0.7880
+2023-03-21 22:27:44,232 - Log_epoch:058, log_loss:0.1960, train_acc:0.9714, val_acc:0.7860
+2023-03-21 22:27:44,234 - Log_epoch:059, log_loss:0.1928, train_acc:0.9714, val_acc:0.7840
+2023-03-21 22:27:44,236 - Log_epoch:060, log_loss:0.1896, train_acc:0.9714, val_acc:0.7840
+2023-03-21 22:27:44,239 - Log_epoch:061, log_loss:0.1866, train_acc:0.9714, val_acc:0.7920
+2023-03-21 22:27:44,241 - Log_epoch:062, log_loss:0.1836, train_acc:0.9786, val_acc:0.7920
+2023-03-21 22:27:44,243 - Log_epoch:063, log_loss:0.1807, train_acc:0.9786, val_acc:0.7920
+2023-03-21 22:27:44,245 - Log_epoch:064, log_loss:0.1779, train_acc:0.9786, val_acc:0.7920
+2023-03-21 22:27:44,247 - Log_epoch:065, log_loss:0.1751, train_acc:0.9786, val_acc:0.7920
+2023-03-21 22:27:44,249 - Log_epoch:066, log_loss:0.1724, train_acc:0.9786, val_acc:0.7920
+2023-03-21 22:27:44,252 - Log_epoch:067, log_loss:0.1698, train_acc:0.9786, val_acc:0.7920
+2023-03-21 22:27:44,254 - Log_epoch:068, log_loss:0.1673, train_acc:0.9857, val_acc:0.7920
+2023-03-21 22:27:44,256 - Log_epoch:069, log_loss:0.1648, train_acc:0.9857, val_acc:0.7920
+2023-03-21 22:27:44,258 - Log_epoch:070, log_loss:0.1624, train_acc:0.9857, val_acc:0.7900
+2023-03-21 22:27:44,261 - Log_epoch:071, log_loss:0.1600, train_acc:0.9857, val_acc:0.7900
+2023-03-21 22:27:44,263 - Log_epoch:072, log_loss:0.1578, train_acc:0.9857, val_acc:0.7900
+2023-03-21 22:27:44,265 - Log_epoch:073, log_loss:0.1555, train_acc:0.9857, val_acc:0.7900
+2023-03-21 22:27:44,267 - Log_epoch:074, log_loss:0.1533, train_acc:0.9857, val_acc:0.7900
+2023-03-21 22:27:44,269 - Log_epoch:075, log_loss:0.1512, train_acc:0.9857, val_acc:0.7900
+2023-03-21 22:27:44,271 - Log_epoch:076, log_loss:0.1491, train_acc:0.9857, val_acc:0.7900
+2023-03-21 22:27:44,273 - Log_epoch:077, log_loss:0.1471, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:44,275 - Log_epoch:078, log_loss:0.1451, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:44,277 - Log_epoch:079, log_loss:0.1431, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:44,279 - Log_epoch:080, log_loss:0.1412, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:44,281 - Log_epoch:081, log_loss:0.1394, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:44,283 - Log_epoch:082, log_loss:0.1376, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:44,285 - Log_epoch:083, log_loss:0.1358, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:44,287 - Log_epoch:084, log_loss:0.1341, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:44,289 - Log_epoch:085, log_loss:0.1324, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:44,291 - Log_epoch:086, log_loss:0.1307, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:44,293 - Log_epoch:087, log_loss:0.1291, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:44,295 - Log_epoch:088, log_loss:0.1275, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:44,297 - Log_epoch:089, log_loss:0.1259, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:44,299 - Log_epoch:090, log_loss:0.1244, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:44,302 - Log_epoch:091, log_loss:0.1229, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:44,304 - Log_epoch:092, log_loss:0.1214, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:44,306 - Log_epoch:093, log_loss:0.1200, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:44,308 - Log_epoch:094, log_loss:0.1186, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:44,311 - Log_epoch:095, log_loss:0.1172, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:44,313 - Log_epoch:096, log_loss:0.1158, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:44,315 - Log_epoch:097, log_loss:0.1145, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:44,318 - Log_epoch:098, log_loss:0.1132, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:44,320 - Log_epoch:099, log_loss:0.1119, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:44,322 - Log_epoch:100, log_loss:0.1107, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:44,324 - Log_epoch:101, log_loss:0.1094, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:44,327 - Log_epoch:102, log_loss:0.1082, train_acc:0.9857, val_acc:0.7780
+2023-03-21 22:27:44,329 - Log_epoch:103, log_loss:0.1070, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,332 - Log_epoch:104, log_loss:0.1059, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,334 - Log_epoch:105, log_loss:0.1047, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,337 - Log_epoch:106, log_loss:0.1036, train_acc:0.9857, val_acc:0.7740
+2023-03-21 22:27:44,340 - Log_epoch:107, log_loss:0.1025, train_acc:0.9857, val_acc:0.7740
+2023-03-21 22:27:44,343 - Log_epoch:108, log_loss:0.1014, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:44,345 - Log_epoch:109, log_loss:0.1004, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:44,348 - Log_epoch:110, log_loss:0.0993, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:44,351 - Log_epoch:111, log_loss:0.0983, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:44,353 - Log_epoch:112, log_loss:0.0973, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:44,356 - Log_epoch:113, log_loss:0.0963, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:44,359 - Log_epoch:114, log_loss:0.0953, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:44,361 - Log_epoch:115, log_loss:0.0944, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:44,364 - Log_epoch:116, log_loss:0.0934, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:44,367 - Log_epoch:117, log_loss:0.0925, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:44,369 - Log_epoch:118, log_loss:0.0916, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:44,372 - Log_epoch:119, log_loss:0.0907, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:44,374 - Log_epoch:120, log_loss:0.0898, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:44,377 - Log_epoch:121, log_loss:0.0889, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:44,380 - Log_epoch:122, log_loss:0.0881, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:44,382 - Log_epoch:123, log_loss:0.0873, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:44,385 - Log_epoch:124, log_loss:0.0864, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:44,387 - Log_epoch:125, log_loss:0.0856, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:44,390 - Log_epoch:126, log_loss:0.0848, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:44,393 - Log_epoch:127, log_loss:0.0840, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:44,396 - Log_epoch:128, log_loss:0.0833, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:44,399 - Log_epoch:129, log_loss:0.0825, train_acc:0.9929, val_acc:0.7720
+2023-03-21 22:27:44,401 - Log_epoch:130, log_loss:0.0818, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:44,404 - Log_epoch:131, log_loss:0.0810, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:44,407 - Log_epoch:132, log_loss:0.0803, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:44,410 - Log_epoch:133, log_loss:0.0796, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:44,412 - Log_epoch:134, log_loss:0.0789, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:44,415 - Log_epoch:135, log_loss:0.0782, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:44,418 - Log_epoch:136, log_loss:0.0775, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:44,420 - Log_epoch:137, log_loss:0.0768, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:44,423 - Log_epoch:138, log_loss:0.0762, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:44,425 - Log_epoch:139, log_loss:0.0755, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:44,428 - Log_epoch:140, log_loss:0.0749, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:44,430 - Log_epoch:141, log_loss:0.0743, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:44,433 - Log_epoch:142, log_loss:0.0736, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:44,435 - Log_epoch:143, log_loss:0.0730, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:44,438 - Log_epoch:144, log_loss:0.0724, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:44,440 - Log_epoch:145, log_loss:0.0718, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:44,443 - Log_epoch:146, log_loss:0.0712, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:44,446 - Log_epoch:147, log_loss:0.0706, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:44,448 - Log_epoch:148, log_loss:0.0701, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:44,451 - Log_epoch:149, log_loss:0.0695, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:44,453 - Log_epoch:150, log_loss:0.0690, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:44,456 - Log_epoch:151, log_loss:0.0684, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:44,458 - Log_epoch:152, log_loss:0.0679, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:44,460 - Log_epoch:153, log_loss:0.0673, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,463 - Log_epoch:154, log_loss:0.0668, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,465 - Log_epoch:155, log_loss:0.0663, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,468 - Log_epoch:156, log_loss:0.0658, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,471 - Log_epoch:157, log_loss:0.0653, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,473 - Log_epoch:158, log_loss:0.0648, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,476 - Log_epoch:159, log_loss:0.0643, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,479 - Log_epoch:160, log_loss:0.0638, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,482 - Log_epoch:161, log_loss:0.0633, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,488 - Log_epoch:162, log_loss:0.0629, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,491 - Log_epoch:163, log_loss:0.0624, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:44,494 - Log_epoch:164, log_loss:0.0619, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:44,496 - Log_epoch:165, log_loss:0.0615, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:44,499 - Log_epoch:166, log_loss:0.0610, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:44,501 - Log_epoch:167, log_loss:0.0606, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:44,504 - Log_epoch:168, log_loss:0.0602, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:44,506 - Log_epoch:169, log_loss:0.0597, train_acc:1.0000, val_acc:0.7680
+2023-03-21 22:27:44,509 - Log_epoch:170, log_loss:0.0593, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,511 - Log_epoch:171, log_loss:0.0589, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,514 - Log_epoch:172, log_loss:0.0585, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,516 - Log_epoch:173, log_loss:0.0581, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,519 - Log_epoch:174, log_loss:0.0577, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,521 - Log_epoch:175, log_loss:0.0573, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,523 - Log_epoch:176, log_loss:0.0569, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,526 - Log_epoch:177, log_loss:0.0565, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,528 - Log_epoch:178, log_loss:0.0561, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,531 - Log_epoch:179, log_loss:0.0557, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,533 - Log_epoch:180, log_loss:0.0554, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,536 - Log_epoch:181, log_loss:0.0550, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,538 - Log_epoch:182, log_loss:0.0546, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,541 - Log_epoch:183, log_loss:0.0543, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,543 - Log_epoch:184, log_loss:0.0539, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,546 - Log_epoch:185, log_loss:0.0536, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,548 - Log_epoch:186, log_loss:0.0532, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,551 - Log_epoch:187, log_loss:0.0529, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,554 - Log_epoch:188, log_loss:0.0525, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,556 - Log_epoch:189, log_loss:0.0522, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,560 - Log_epoch:190, log_loss:0.0519, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,564 - Log_epoch:191, log_loss:0.0515, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,569 - Log_epoch:192, log_loss:0.0512, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,573 - Log_epoch:193, log_loss:0.0509, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,577 - Log_epoch:194, log_loss:0.0506, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,581 - Log_epoch:195, log_loss:0.0503, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,584 - Log_epoch:196, log_loss:0.0500, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,588 - Log_epoch:197, log_loss:0.0497, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,591 - Log_epoch:198, log_loss:0.0494, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,594 - Log_epoch:199, log_loss:0.0491, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:44,596 - test_acc:0.821, log_step:61
+2023-03-21 22:27:44,596 - model runs 9 times, mean_acc=0.817111111111111+-0.0031426968052735474
+2023-03-21 22:27:44,596 - ================================Log runs 10=================================
+2023-03-21 22:27:44,615 - Log_epoch:000, log_loss:1.9612, train_acc:0.1071, val_acc:0.5180
+2023-03-21 22:27:44,618 - Log_epoch:001, log_loss:1.7999, train_acc:0.6357, val_acc:0.6480
+2023-03-21 22:27:44,621 - Log_epoch:002, log_loss:1.6483, train_acc:0.7714, val_acc:0.7000
+2023-03-21 22:27:44,624 - Log_epoch:003, log_loss:1.5070, train_acc:0.7857, val_acc:0.7140
+2023-03-21 22:27:44,627 - Log_epoch:004, log_loss:1.3766, train_acc:0.7929, val_acc:0.7280
+2023-03-21 22:27:44,630 - Log_epoch:005, log_loss:1.2576, train_acc:0.8071, val_acc:0.7400
+2023-03-21 22:27:44,632 - Log_epoch:006, log_loss:1.1501, train_acc:0.8143, val_acc:0.7400
+2023-03-21 22:27:44,635 - Log_epoch:007, log_loss:1.0539, train_acc:0.8214, val_acc:0.7440
+2023-03-21 22:27:44,637 - Log_epoch:008, log_loss:0.9686, train_acc:0.8429, val_acc:0.7460
+2023-03-21 22:27:44,640 - Log_epoch:009, log_loss:0.8934, train_acc:0.8500, val_acc:0.7480
+2023-03-21 22:27:44,642 - Log_epoch:010, log_loss:0.8276, train_acc:0.8500, val_acc:0.7480
+2023-03-21 22:27:44,644 - Log_epoch:011, log_loss:0.7700, train_acc:0.8643, val_acc:0.7460
+2023-03-21 22:27:44,646 - Log_epoch:012, log_loss:0.7197, train_acc:0.8643, val_acc:0.7480
+2023-03-21 22:27:44,649 - Log_epoch:013, log_loss:0.6758, train_acc:0.8571, val_acc:0.7500
+2023-03-21 22:27:44,651 - Log_epoch:014, log_loss:0.6373, train_acc:0.8643, val_acc:0.7540
+2023-03-21 22:27:44,654 - Log_epoch:015, log_loss:0.6034, train_acc:0.8643, val_acc:0.7540
+2023-03-21 22:27:44,657 - Log_epoch:016, log_loss:0.5735, train_acc:0.8643, val_acc:0.7580
+2023-03-21 22:27:44,659 - Log_epoch:017, log_loss:0.5469, train_acc:0.8714, val_acc:0.7620
+2023-03-21 22:27:44,662 - Log_epoch:018, log_loss:0.5231, train_acc:0.8714, val_acc:0.7640
+2023-03-21 22:27:44,664 - Log_epoch:019, log_loss:0.5016, train_acc:0.8714, val_acc:0.7680
+2023-03-21 22:27:44,667 - Log_epoch:020, log_loss:0.4822, train_acc:0.8714, val_acc:0.7700
+2023-03-21 22:27:44,669 - Log_epoch:021, log_loss:0.4645, train_acc:0.8714, val_acc:0.7720
+2023-03-21 22:27:44,671 - Log_epoch:022, log_loss:0.4483, train_acc:0.8714, val_acc:0.7720
+2023-03-21 22:27:44,674 - Log_epoch:023, log_loss:0.4333, train_acc:0.8714, val_acc:0.7740
+2023-03-21 22:27:44,676 - Log_epoch:024, log_loss:0.4194, train_acc:0.8714, val_acc:0.7740
+2023-03-21 22:27:44,678 - Log_epoch:025, log_loss:0.4065, train_acc:0.8786, val_acc:0.7740
+2023-03-21 22:27:44,681 - Log_epoch:026, log_loss:0.3943, train_acc:0.9000, val_acc:0.7720
+2023-03-21 22:27:44,683 - Log_epoch:027, log_loss:0.3829, train_acc:0.9000, val_acc:0.7720
+2023-03-21 22:27:44,685 - Log_epoch:028, log_loss:0.3722, train_acc:0.9143, val_acc:0.7740
+2023-03-21 22:27:44,688 - Log_epoch:029, log_loss:0.3620, train_acc:0.9286, val_acc:0.7760
+2023-03-21 22:27:44,690 - Log_epoch:030, log_loss:0.3523, train_acc:0.9286, val_acc:0.7780
+2023-03-21 22:27:44,692 - Log_epoch:031, log_loss:0.3431, train_acc:0.9286, val_acc:0.7780
+2023-03-21 22:27:44,695 - Log_epoch:032, log_loss:0.3343, train_acc:0.9286, val_acc:0.7780
+2023-03-21 22:27:44,697 - Log_epoch:033, log_loss:0.3260, train_acc:0.9286, val_acc:0.7780
+2023-03-21 22:27:44,699 - Log_epoch:034, log_loss:0.3180, train_acc:0.9357, val_acc:0.7780
+2023-03-21 22:27:44,702 - Log_epoch:035, log_loss:0.3104, train_acc:0.9429, val_acc:0.7800
+2023-03-21 22:27:44,704 - Log_epoch:036, log_loss:0.3031, train_acc:0.9429, val_acc:0.7800
+2023-03-21 22:27:44,706 - Log_epoch:037, log_loss:0.2962, train_acc:0.9429, val_acc:0.7800
+2023-03-21 22:27:44,709 - Log_epoch:038, log_loss:0.2895, train_acc:0.9429, val_acc:0.7820
+2023-03-21 22:27:44,711 - Log_epoch:039, log_loss:0.2831, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:44,713 - Log_epoch:040, log_loss:0.2769, train_acc:0.9500, val_acc:0.7800
+2023-03-21 22:27:44,716 - Log_epoch:041, log_loss:0.2711, train_acc:0.9500, val_acc:0.7780
+2023-03-21 22:27:44,718 - Log_epoch:042, log_loss:0.2654, train_acc:0.9500, val_acc:0.7780
+2023-03-21 22:27:44,720 - Log_epoch:043, log_loss:0.2599, train_acc:0.9500, val_acc:0.7780
+2023-03-21 22:27:44,722 - Log_epoch:044, log_loss:0.2547, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:44,725 - Log_epoch:045, log_loss:0.2497, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:44,727 - Log_epoch:046, log_loss:0.2448, train_acc:0.9500, val_acc:0.7820
+2023-03-21 22:27:44,730 - Log_epoch:047, log_loss:0.2401, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:44,732 - Log_epoch:048, log_loss:0.2355, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:44,734 - Log_epoch:049, log_loss:0.2312, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:44,736 - Log_epoch:050, log_loss:0.2269, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:44,738 - Log_epoch:051, log_loss:0.2228, train_acc:0.9571, val_acc:0.7840
+2023-03-21 22:27:44,741 - Log_epoch:052, log_loss:0.2188, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:44,743 - Log_epoch:053, log_loss:0.2149, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:44,745 - Log_epoch:054, log_loss:0.2112, train_acc:0.9571, val_acc:0.7860
+2023-03-21 22:27:44,748 - Log_epoch:055, log_loss:0.2076, train_acc:0.9571, val_acc:0.7900
+2023-03-21 22:27:44,750 - Log_epoch:056, log_loss:0.2040, train_acc:0.9571, val_acc:0.7900
+2023-03-21 22:27:44,752 - Log_epoch:057, log_loss:0.2006, train_acc:0.9643, val_acc:0.7900
+2023-03-21 22:27:44,754 - Log_epoch:058, log_loss:0.1973, train_acc:0.9643, val_acc:0.7880
+2023-03-21 22:27:44,757 - Log_epoch:059, log_loss:0.1940, train_acc:0.9714, val_acc:0.7880
+2023-03-21 22:27:44,759 - Log_epoch:060, log_loss:0.1909, train_acc:0.9714, val_acc:0.7880
+2023-03-21 22:27:44,761 - Log_epoch:061, log_loss:0.1878, train_acc:0.9786, val_acc:0.7900
+2023-03-21 22:27:44,763 - Log_epoch:062, log_loss:0.1848, train_acc:0.9786, val_acc:0.7900
+2023-03-21 22:27:44,766 - Log_epoch:063, log_loss:0.1819, train_acc:0.9786, val_acc:0.7900
+2023-03-21 22:27:44,768 - Log_epoch:064, log_loss:0.1791, train_acc:0.9786, val_acc:0.7880
+2023-03-21 22:27:44,774 - Log_epoch:065, log_loss:0.1763, train_acc:0.9786, val_acc:0.7880
+2023-03-21 22:27:44,777 - Log_epoch:066, log_loss:0.1736, train_acc:0.9786, val_acc:0.7860
+2023-03-21 22:27:44,779 - Log_epoch:067, log_loss:0.1710, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:44,781 - Log_epoch:068, log_loss:0.1684, train_acc:0.9786, val_acc:0.7840
+2023-03-21 22:27:44,783 - Log_epoch:069, log_loss:0.1659, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:44,786 - Log_epoch:070, log_loss:0.1635, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:44,788 - Log_epoch:071, log_loss:0.1611, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:44,790 - Log_epoch:072, log_loss:0.1588, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:44,792 - Log_epoch:073, log_loss:0.1566, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:44,795 - Log_epoch:074, log_loss:0.1544, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:44,797 - Log_epoch:075, log_loss:0.1522, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:44,799 - Log_epoch:076, log_loss:0.1501, train_acc:0.9857, val_acc:0.7860
+2023-03-21 22:27:44,801 - Log_epoch:077, log_loss:0.1480, train_acc:0.9857, val_acc:0.7840
+2023-03-21 22:27:44,803 - Log_epoch:078, log_loss:0.1460, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:44,805 - Log_epoch:079, log_loss:0.1441, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:44,807 - Log_epoch:080, log_loss:0.1422, train_acc:0.9857, val_acc:0.7820
+2023-03-21 22:27:44,809 - Log_epoch:081, log_loss:0.1403, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:44,811 - Log_epoch:082, log_loss:0.1385, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:44,813 - Log_epoch:083, log_loss:0.1367, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:44,815 - Log_epoch:084, log_loss:0.1349, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:44,817 - Log_epoch:085, log_loss:0.1332, train_acc:0.9857, val_acc:0.7800
+2023-03-21 22:27:44,819 - Log_epoch:086, log_loss:0.1315, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,821 - Log_epoch:087, log_loss:0.1299, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,823 - Log_epoch:088, log_loss:0.1282, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,825 - Log_epoch:089, log_loss:0.1267, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,827 - Log_epoch:090, log_loss:0.1251, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,829 - Log_epoch:091, log_loss:0.1236, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,832 - Log_epoch:092, log_loss:0.1221, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,834 - Log_epoch:093, log_loss:0.1207, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,836 - Log_epoch:094, log_loss:0.1192, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,839 - Log_epoch:095, log_loss:0.1178, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,841 - Log_epoch:096, log_loss:0.1165, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,844 - Log_epoch:097, log_loss:0.1151, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,846 - Log_epoch:098, log_loss:0.1138, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,848 - Log_epoch:099, log_loss:0.1125, train_acc:0.9857, val_acc:0.7740
+2023-03-21 22:27:44,851 - Log_epoch:100, log_loss:0.1113, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,853 - Log_epoch:101, log_loss:0.1100, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,856 - Log_epoch:102, log_loss:0.1088, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,858 - Log_epoch:103, log_loss:0.1076, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,861 - Log_epoch:104, log_loss:0.1064, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,863 - Log_epoch:105, log_loss:0.1053, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,867 - Log_epoch:106, log_loss:0.1041, train_acc:0.9857, val_acc:0.7760
+2023-03-21 22:27:44,869 - Log_epoch:107, log_loss:0.1030, train_acc:0.9857, val_acc:0.7740
+2023-03-21 22:27:44,872 - Log_epoch:108, log_loss:0.1019, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:44,875 - Log_epoch:109, log_loss:0.1008, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:44,878 - Log_epoch:110, log_loss:0.0998, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:44,881 - Log_epoch:111, log_loss:0.0987, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:44,884 - Log_epoch:112, log_loss:0.0977, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:44,886 - Log_epoch:113, log_loss:0.0967, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:44,889 - Log_epoch:114, log_loss:0.0957, train_acc:0.9857, val_acc:0.7720
+2023-03-21 22:27:44,892 - Log_epoch:115, log_loss:0.0948, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:44,895 - Log_epoch:116, log_loss:0.0938, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:44,897 - Log_epoch:117, log_loss:0.0929, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:44,900 - Log_epoch:118, log_loss:0.0920, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:44,903 - Log_epoch:119, log_loss:0.0911, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:44,905 - Log_epoch:120, log_loss:0.0902, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:44,908 - Log_epoch:121, log_loss:0.0893, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:44,910 - Log_epoch:122, log_loss:0.0885, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:44,913 - Log_epoch:123, log_loss:0.0876, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:44,915 - Log_epoch:124, log_loss:0.0868, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:44,918 - Log_epoch:125, log_loss:0.0860, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:44,920 - Log_epoch:126, log_loss:0.0852, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:44,923 - Log_epoch:127, log_loss:0.0844, train_acc:0.9929, val_acc:0.7700
+2023-03-21 22:27:44,925 - Log_epoch:128, log_loss:0.0836, train_acc:0.9929, val_acc:0.7680
+2023-03-21 22:27:44,928 - Log_epoch:129, log_loss:0.0828, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:44,930 - Log_epoch:130, log_loss:0.0821, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:44,933 - Log_epoch:131, log_loss:0.0813, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:44,935 - Log_epoch:132, log_loss:0.0806, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:44,938 - Log_epoch:133, log_loss:0.0799, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:44,940 - Log_epoch:134, log_loss:0.0792, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:44,942 - Log_epoch:135, log_loss:0.0785, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:44,945 - Log_epoch:136, log_loss:0.0778, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:44,947 - Log_epoch:137, log_loss:0.0771, train_acc:0.9929, val_acc:0.7660
+2023-03-21 22:27:44,950 - Log_epoch:138, log_loss:0.0764, train_acc:0.9929, val_acc:0.7640
+2023-03-21 22:27:44,952 - Log_epoch:139, log_loss:0.0758, train_acc:0.9929, val_acc:0.7640
+2023-03-21 22:27:44,955 - Log_epoch:140, log_loss:0.0751, train_acc:0.9929, val_acc:0.7640
+2023-03-21 22:27:44,957 - Log_epoch:141, log_loss:0.0745, train_acc:0.9929, val_acc:0.7640
+2023-03-21 22:27:44,960 - Log_epoch:142, log_loss:0.0739, train_acc:0.9929, val_acc:0.7640
+2023-03-21 22:27:44,962 - Log_epoch:143, log_loss:0.0732, train_acc:0.9929, val_acc:0.7640
+2023-03-21 22:27:44,964 - Log_epoch:144, log_loss:0.0726, train_acc:0.9929, val_acc:0.7640
+2023-03-21 22:27:44,967 - Log_epoch:145, log_loss:0.0720, train_acc:0.9929, val_acc:0.7640
+2023-03-21 22:27:44,969 - Log_epoch:146, log_loss:0.0714, train_acc:0.9929, val_acc:0.7640
+2023-03-21 22:27:44,972 - Log_epoch:147, log_loss:0.0708, train_acc:0.9929, val_acc:0.7640
+2023-03-21 22:27:44,974 - Log_epoch:148, log_loss:0.0703, train_acc:0.9929, val_acc:0.7640
+2023-03-21 22:27:44,977 - Log_epoch:149, log_loss:0.0697, train_acc:0.9929, val_acc:0.7640
+2023-03-21 22:27:44,979 - Log_epoch:150, log_loss:0.0691, train_acc:0.9929, val_acc:0.7640
+2023-03-21 22:27:44,982 - Log_epoch:151, log_loss:0.0686, train_acc:0.9929, val_acc:0.7640
+2023-03-21 22:27:44,984 - Log_epoch:152, log_loss:0.0680, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,987 - Log_epoch:153, log_loss:0.0675, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,989 - Log_epoch:154, log_loss:0.0670, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,991 - Log_epoch:155, log_loss:0.0665, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,994 - Log_epoch:156, log_loss:0.0659, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,997 - Log_epoch:157, log_loss:0.0654, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:44,999 - Log_epoch:158, log_loss:0.0649, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,002 - Log_epoch:159, log_loss:0.0644, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,005 - Log_epoch:160, log_loss:0.0640, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,007 - Log_epoch:161, log_loss:0.0635, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,010 - Log_epoch:162, log_loss:0.0630, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,013 - Log_epoch:163, log_loss:0.0625, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,015 - Log_epoch:164, log_loss:0.0621, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,018 - Log_epoch:165, log_loss:0.0616, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,021 - Log_epoch:166, log_loss:0.0612, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:45,023 - Log_epoch:167, log_loss:0.0607, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:45,026 - Log_epoch:168, log_loss:0.0603, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:45,029 - Log_epoch:169, log_loss:0.0599, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:45,031 - Log_epoch:170, log_loss:0.0594, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:45,034 - Log_epoch:171, log_loss:0.0590, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:45,037 - Log_epoch:172, log_loss:0.0586, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:45,039 - Log_epoch:173, log_loss:0.0582, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:45,042 - Log_epoch:174, log_loss:0.0578, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:45,045 - Log_epoch:175, log_loss:0.0574, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:45,048 - Log_epoch:176, log_loss:0.0570, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:45,051 - Log_epoch:177, log_loss:0.0566, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:45,058 - Log_epoch:178, log_loss:0.0562, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:45,060 - Log_epoch:179, log_loss:0.0558, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:45,063 - Log_epoch:180, log_loss:0.0555, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:45,066 - Log_epoch:181, log_loss:0.0551, train_acc:1.0000, val_acc:0.7660
+2023-03-21 22:27:45,070 - Log_epoch:182, log_loss:0.0547, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,073 - Log_epoch:183, log_loss:0.0544, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,076 - Log_epoch:184, log_loss:0.0540, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,079 - Log_epoch:185, log_loss:0.0537, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,082 - Log_epoch:186, log_loss:0.0533, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,085 - Log_epoch:187, log_loss:0.0530, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,088 - Log_epoch:188, log_loss:0.0526, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,091 - Log_epoch:189, log_loss:0.0523, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,093 - Log_epoch:190, log_loss:0.0520, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,096 - Log_epoch:191, log_loss:0.0516, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,099 - Log_epoch:192, log_loss:0.0513, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,102 - Log_epoch:193, log_loss:0.0510, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,105 - Log_epoch:194, log_loss:0.0507, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,107 - Log_epoch:195, log_loss:0.0503, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,110 - Log_epoch:196, log_loss:0.0500, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,113 - Log_epoch:197, log_loss:0.0497, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,115 - Log_epoch:198, log_loss:0.0494, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,118 - Log_epoch:199, log_loss:0.0491, train_acc:1.0000, val_acc:0.7640
+2023-03-21 22:27:45,119 - test_acc:0.825, log_step:55
+2023-03-21 22:27:45,120 - model runs 10 times, mean_acc=0.8178999999999998+-0.0038065732621348596
+2023-03-21 22:27:45,120 - test_acc_lis:[0.816, 0.813, 0.821, 0.815, 0.82, 0.814, 0.82, 0.814, 0.821, 0.825]
+2023-03-21 22:27:45,120 - ================================Log runs ends=================================
